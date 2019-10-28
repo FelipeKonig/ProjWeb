@@ -3,6 +3,10 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="style/style.css">
+	<script src="vendor/jquery/jquery-3.4.1.min.js"></script>
+	<script src="vendor/js/bootstrap.bundle.min.js"></script>
 	<link rel="icon" href="img/icon.ico" />
 	<title>Cadastro</title>
 	<link rel="stylesheet" type="text/css" href="css\style.css">
@@ -22,25 +26,60 @@
 	</nav>
 		<section>
 		<h2>Cadastro</h2>
-		<form action="/ProjWeb/html/bdAleatorio.txt" method="get">
-			<fieldset>
-				Nome Completo:
-				<input type="text" name="nomeCompleto" autofocus/>
-				E-mail:
-				<input type="text" name="E-mail">
-				Estado Civil:
-				<input type="radio" name="EC" value="casado(a)"> Casado
-				<input type="radio" name="EC" value="solteiro(a)" checked> Solteiro
-				<input type="radio" name="EC" value="viúvo(a)"> Viúvo
+
+		<div class="container">
+
+		<form action="/ProjWeb/html/bdAleatorio.txt" method="get" >
+
+			<label for="nome">Nome:</label>
+			
+			<div class="form-inline">
+
+				<input type="text" class="form-control " name="nomeCompleto" autofocus/>
+
+			</div>
+		
+			<label for="nome">Email:</label>
+
+			<div class="form-inline">
+
+				<input type="text"  class="form-control " name="E-mail">
+
+			</div>
+
+			<div class="form-inline">
+
+				<input type="radio"  class="form-control" name="EC" value="casado(a)"> Casado
+
+			</div>
+
+			<div class="form-inline">
+
+				<input type="radio" name="EC"  class="form-control" value="solteiro(a)" checked> Solteiro
+
+			</div>
+
+			<div class="form-inline">
+				<input type="radio" name="EC"  class="form-control" value="viúvo(a)"> Viúvo
+			</div>
+
 				<br>
-				Idade:
-				<select>
-					<option value="Criança">Menos de 12 anos</option>
-					<option value="PreAdolescente">Entre 12 e 16 anos</option>
-					<option value="Adolescente">Entre 16 e 21 anos</option>
-					<option value="Adulto">Entre 21 e 60 anos</option>
-					<option value="Velho">Mais de 60 anos</option>
-				</select> 
+
+
+				<div class="input-group">
+  					<div class="input-group-prepend">
+    					<label class="input-group-text" for="inputGroupSelect01">Idade</label>
+ 					</div>
+ 				
+  				 <select class="custom-select" id="inputGroupSelect01"  data-style="btn-danger">
+   				<option value="Crianca">Menos de 12 anos</option>
+   				<option value="PreAdolescente">Entre 16 e 21 anos</option>
+    			<option value="Adulto">Entre 21 e 60 anos</option>
+    			<option value="Velho">Mais de 60 anos</option>
+  				</select>
+
+				</div>
+
 				Sexo:	
 				<input type="checkbox" name="Sexo" value="Masculino"> Masculino
 				<input type="checkbox" name="Sexo" value="Feminino"> Feminino
@@ -48,45 +87,14 @@
 				<br>
 				Endereco:
 				<br>
-				<textarea rows="5" cols="20" name="Endereco"></textarea>
+				<input rows="5"  class="form-control cols="20" name="Endereco">
 				<input type="submit" value="Cadastrar" style="width: 15%" />
 				<input type="reset" value="Limpar" style="width: 15%" />
-			</fieldset>
-		</form>
+		<!--	</fieldset> -->
+
+			</form>
 	</section>
-	<article >
-		<h1>Quais são os artigos que revistas científicas usam?</h1>
-		<ul>
-			<li>
-				<h3>Letters</h3>
-				<p>
-					("cartas", também chamadas de comunicações, e que não devem ser confundidas com as cartas ao editor) são descrições breves de importantes descobertas em pesquisas atuais as quais são rapidamente despachadas para publicação imediata porque são consideradas urgentes.
-				</p>
-			</li>
-			<li>
-				<h3>Notas Breves</h3>
-				<p> 
-				são descrições curtas de descobertas em pesquisas atuais e que são consideradas menos urgentes ou 	importantes do que as Letters
-				</p>
-			</li>
-			<li>
-				<h3>Artigos</h3>
-				<p>
-					possuem geralmente entre cinco e vinte páginas e são uma descrição completa de descobertas originais feitas em pesquisas atuais. Existem variações consideráveis entre campos científicos e periódicos: artigos de 80 páginas não são raros em matemática ou ciência da computação teórica.
-				</p>
-			</li>
-			<li>
-				<h3>Documento suplementar</h3>
-				<p>
-					 contém um grande volume de dados tabulados que são a resultante de pesquisa atual e podem conter dúzias ou centenas de páginas preenchidas principalmente com dados numéricos. Hoje em dia, alguns periódicos somente publicam estes dados sob forma eletrônica, na internet.
-				</p>
-			</li>
-			<li>
-				<h3>Revisão de literatura</h3>
-				<p>não cobrem pesquisas originais, mas resultados acumulados de muitos artigos diferentes sobre um tópico em particular numa narrativa coerente sobre o estado da arte naquele campo. Exemplos de revisões incluem as séries de periódicos Nature Reviews e Trends in, as quais convidam expertos para escrever sobre suas especializações e depois submetem o artigo à revisão por pares antes de sua publicação. Outros periódicos, tais como a série Current Opinion, são menos rigorosos na revisão de cada artigo e, em vez disso, confiam no autor para apresentar uma perspectiva acurada e imparcial. Revisões de literatura fornecem informações sobre o tópico, bem como referências quanto a pesquisa original.</p>
-			</li>
-		</ul>
-	</article>
+
 	<aside >
 		<br>
 		<br>
@@ -101,5 +109,7 @@
 	<footer >
 		<pre> nomeRevista					Facebook: nomeRevista			Twitter: nomeRevista</pre>
 	</footer>
+
+	</div>
 </body>
 </html>
