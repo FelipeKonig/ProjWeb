@@ -9,8 +9,13 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	  $('[data-toggle="popover"]').popover();
+	});
+	</script>
 
-	<link rel="stylesheet" type="text/css" href="css\style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<title>Biologia</title>
 </head>
@@ -108,7 +113,9 @@
 			<h3>Entrando no mundo quântico</h3>
 			<p>
 				No recente artigo, Marletto e seus colegas argumentam que as bactérias se tornaram “emaranhadas” com a luz dentro da cavidade.
-				Em essência, parece que certos fótons estavam simultaneamente atingindo e perdendo moléculas fotossintéticas dentro da bactéria – uma marca registrada do emaranhamento.
+				Em essência, parece que certos
+				<a href="#Home" data-toggle="popover" title="O que é um fóton?" data-content="partícula de massa de repouso nula, carga elétrica nula e spin 1. a frequência da radiação em hertz [Os fótons se deslocam no vácuo à velocidade da luz e sua natureza de partícula é importante na explicação de certos fenômenos físicos, como, p.ex., o efeito fotelétrico.].">fótons</a>
+				 estavam simultaneamente atingindo e perdendo moléculas fotossintéticas dentro da bactéria – uma marca registrada do emaranhamento.
 			</p>
 			<p>
 				De acordo com outro autor do estudo, Tristan Farrow, também da Universidade de Oxford, esta é a primeira vez que tal efeito foi vislumbrado em um organismo vivo. “Certamente é fundamental para demonstrar que estamos no caminho para uma ideia de uma ‘bactéria de Schrödinger’”, afirmou.
