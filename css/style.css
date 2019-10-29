@@ -1,103 +1,142 @@
+	#firstLinkNav{
+		color: white; 
+		margin-left: 20%;
+	}
+
+	.linksNav{	
+		color: white;
+		margin-left: 1%;
+	}
+
+	.linkGuia{
+		margin-left: 30%;
+	}
+
+	.linksNavLat{
+		margin-right: 3%;
+	}
+
+	#titulo{
+		font-size: 250%;
+	}
+
+	.nav-item{
+		margin-top: 10px;
+	}
+
+	p{
+		font-family: 'Noto Sans', sans-serif;
+		text-indent: 25px;
+		margin-left: 18%;
+		text-align: justify;
+		margin-right: 5%;
+	}
 
 	h1,h2,h3 {
 		font-family: 'Oswald', sans-serif;
 	}
 
-	h3{
+	h2{
+		margin-left: 18%;
+		padding-top: 10px;
 		text-align: center;
+		font-style: oblique;
+		font-weight: bold;
+	}
+
+	h3{
+		margin-left: 18%;
 	}
 
 	li{
 		font-family: 'Mansalva', cursive;
 	}
 
-	p{
-		font-family: 'Noto Sans', sans-serif;
-		text-indent: 25px;
-		text-align: justify;
-	}
 
-	body{
-		background-color: #2EB8EF;
-		position: static;
-	}
-
-	article{
-		float: left;
-		width: 70%;
-	}
-	
-	aside{
-		float: right;
-	}
-	
-	section{
-		float: left;
-		width: 70%;
-	}
-	
-	footer{
-		float: left;
-		padding-top: 7%;
-		font-family: 'Raleway', sans-serif;
-		font-style: italic;
-		}
-
-	header{
-		font-family: 'Raleway', sans-serif;
-		font-style: italic;
-	}
-
-	nav{
-		width: 100%;
-		height: 40px;
-		background-color: black;
-	}
-	
-	.navA1{
-		margin: 5%;
-	}
-
-	.navA1:link {
+	.linksNav:link {
 		color: white;
 	}
 
-	.navA1:visited {
-		color: green;
+	.linksNav:visited {
+		color: black;
 	}
 
-	.navA1:hover {
-		color: #DBD700;
+	.linksNav:hover {
+		color: #075252;
 	}
 
-	.navA1:active {
-		color: #9D0577;
+	.linksNav:active {
+		color: #16421c;
 	}
 
-	table, th, td {
-		border: solid 1px black;
-		border-collapse: collapse;
-		padding: 10px;
-		}
 
-		th {
-			text-align: center;
-		}
 
-		#trHead:nth-child(odd) {
-    		background: white;
-		}
+	#firstLinkNav:link {
+		color: white;
+	}
 
-		#trBody:nth-child(odd) {
-    		background: #ccc;
-		}
+	#firstLinkNav:visited {
+		color: black;
+	}
 
-		#trFoot:nth-child(odd) {
-    		background: white;
-		}
+	#firstLinkNav:hover {
+		color: #075252;
+	}
 
-		.txtTabel {
-			width: 180px;
-			height: 200px;
-  			overflow-y: auto;
-		}
+	#firstLinkNav:active {
+		color: #16421c;
+	}
+
+
+
+	.linksNavLat:link {
+		color: white;
+	}
+
+	.linksNavLat:visited {
+		color: black;
+	}
+
+	.linksNavLat:hover {
+		color: #075252;
+	}
+
+	.linksNavLat:active {
+		color: #16421c;
+	}
+
+
+
+	.linkGuia:link {
+		color: #4a0c07;
+	}
+
+	.linkGuia:visited {
+		color: #eb4034;
+	}
+
+	.linkGuia:hover {
+		color: #854c48;
+	}
+
+	.linkGuia:active {
+		color: black;
+	}
+
+
+
+	.linkGuia2:link {
+		color: #4a0c07;
+	}
+
+	.linkGuia2:visited {
+		color: #eb4034;
+	}
+
+	.linkGuia2:hover {
+		color: #854c48;
+	}
+
+	.linkGuia2:active {
+		color: black;
+	}
