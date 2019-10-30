@@ -16,6 +16,10 @@
 		margin-top: 10px;
 	}
 
+	#textoLink{
+		color:  white;
+	}
+
 	p{
 		font-family: 'Noto Sans', sans-serif;
 		text-indent: 25px;
