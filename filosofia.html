@@ -5,150 +5,195 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="icon" href="img/icon.ico" />
 	<title>Filosofia</title>
-	<link rel="stylesheet" type="text/css" href="css\style.css">
-	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	  $('[data-toggle="popover"]').popover();
+	});
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<header>
-		<pre>		Endereco							Canoinhas-Santa Catarina				nºtelefone
-		</pre>
+<body>
+	<header class="row" >
+			<div id="rua" class="col-4 bg-dark text-white" style="text-align: center;" >		Av. Expedicionários</div>
+			<div class="col-4 bg-dark text-white" style="text-align: center;" >		Canoinhas-Santa Catarina</div>
+			<div class="col-4 bg-dark text-white" style="text-align: center;" >		(47)99949-7824</div>
+
 	</header>
-	<nav>
-		<a href="historia.html" class="navA1" target="_self"> História</a>
-		<a href="tecnologias.html" class="navA1" target="_self"> Tecnologias</a>
-		<a href="filosofia.html" class="navA1" target="_self"> Filosofia</a>
-		<a href="fisica.html" class="navA1" target="_self" > Física</a>
-		<a href="biologia.html" class="navA1" target="_self" > Biologia</a>
-		<a href="bizarro.html" class="navA1" target="_self" > Bizarro</a>
+	<nav class="col-md-12 p-3 bg-dark text-white">
+		<img src="img/logo2.png" class="col-md mx-auto " style="width: 80px;" alt=" ">
+		<a id="titulo">Revista Científica</a>
+
+		<a id="firstLinkNav" href="historia.html" target="_self" > História</a>
+		<a class="linksNav" href="tecnologias.html" target="_self" > Tecnologias</a>
+		<a class="linksNav" href="filosofia.html" target="_self" > Filosofia</a>
+		<a class="linksNav" href="fisica.html" target="_self" > Física</a>
+		<a class="linksNav" href="biologia.html" target="_self" > Biologia</a>
+		<a class="linksNav" href="bizarro.html" target="_self" >Bizarro</a>
 	</nav>
-	<article>
-		<h3>Filosofia</h3>
-		<table>
-			<thead>
-				<tr id="trHead">
-					<th>Assunto</th>
-					<td>Lógica</td>
-					<td>Ontologia</td>
-					<td>Axiologia</td>
-					<td>Epistemologia</td>
-					<td>Metafísica </td>
-					<td>Antropologia</td>
-				</tr>
-			</thead>
-			<tbody>
-				<tr id="trBody">
-					<th>Resumo</th>
-					<td >
-						<p class="txtTabel">
-							A Lógica é a ciência das inferências válidas.
-							Uma inferência é válida quando está em conformidade com os procedimentos que governam o pensamento correcto. O objecto da lógica é, então, o de destrinçar as leis que autorizam esses procedimentos, de os explicar, e de os formular.
-						</p>
-					</td>
-					<td>
-						<p class="txtTabel">
-							Segundo o aristotelismo, parte da filosofia que tem por objeto o estudo das propriedades mais gerais do ser, apartada da infinidade de determinações que, ao qualificá-lo particularmente, ocultam sua natureza plena e integral.
-						</p>
-					</td>
-					<td>
-						<p class="txtTabel">
-							Axiologia, também chamada de teoria de valor, é o estudo filosófico prático que busca entender a natureza dos valores e os juízos de valor e como eles surgem na sociedade.
-							A axiologia está intimamente relacionada a dois outros domínios da filosofia: ética e estética. Todos os três ramos lidam com o valor.
-						</p>
-					</td>
-					<td>
-						<p class="txtTabel">
-							Epistemologia significa ciência, conhecimento, é o estudo científico que trata dos problemas relacionados com a crença e o conhecimento, sua natureza e limitações. É uma palavra que vem do grego.
-						</p>
-					</td>
-					<td>
-						<p class="txtTabel">
-							Metafísica é uma palavra com origem no grego e que significa "o que está para além da física". É uma doutrina que busca o conhecimento da essência das coisas.
-							O termo metafísica foi consagrado por Andrônico de Rodes a partir da ordenação dos livros aristotélicos referidos à ciência dos primeiros princípios e primeiras causas do ser.
-						</p>
-					</td>
-					<td>
-						<p class="txtTabel">
-							Antropologia é uma ciência que se dedica ao estudo aprofundado do ser humano. É um termo de origem grega, formado por “anthropos” (homem, ser humano) e “logos” (conhecimento).
-							A reflexão sobre as sociedades, o homem e o seu comportamento social é conhecida desde a Antiguidade Clássica pelo pensamento de grandes filósofos. Em destaque há o grego Heródoto, considerado o pai da História e da Antropologia.
-						</p>
-					</td>
-				</tr>
-			</tbody>
-			<tfoot>
-				<tr  id="trFoot">
-					<th>Conteúdos</th>
-					<td>Algumas considerações sobre lógica-Amauri Paulo Cervo</td>
-					<td>Uma abordagem integrada sobre ontologias:Ciência da Computação e Filosofia</td>
-					<td>Axiologia: apontamentos sobre o valor</td>
-					<td>A Epistemologia-Educadores</td>
-					<td>A metafísica e o processo de objetificação-PePSIC</td>
-					<td>conceituando a antropologia-Revista Antropos</td>
-				</tr>
-			</tfoot>
-		</table>
-	</article>
+	<br>
+	<br>
+
+	<aside class="col-md-2 bg-success float-sm-left">
+		<h3 class="text-white" style="margin-top: 10px">Bizarro</h3>
+		<nav class="navbar">
+
+		  <!-- Links -->
+		  <ul class="navbar-nav">
+		    <li class="nav-item">
+		      <a class="linksNavLat" href="#">Morre Agnes Heller, a filósofa da vida cotidiana que sobreviveu ao Holocausto</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="linksNavLat" href="#">Como mudar o sistema educativo para transformar o mundo</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="linksNavLat" href="#">O feminismo que nasceu com Simone de Beauvoir</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="linksNavLat" href="#">“Filosofia não faz perguntas para encontrar respostas, mas sim para questionar as já estabelecidas”</a>
+		    </li>
+		  	<li class="nav-item">
+		      <a class="linksNavLat" href="#">Peter Sloterdijk: “A vida atual não convida a pensar”</a>
+		    </li>
+		  </ul>
+
+		</nav>
+	</aside>
+
 	<section >
-		<h1>Algumas considerações sobre lógica</h1>
-		<h2>Resumo</h2>
+		<h2>Como a atividade dos neurônios produz essa sensação única de estar vivo e consciente?</h2>
+		<h3>Dados mostram teimosamente que todas as nossas peculiaridades —linguagem, matemática, moralidade, artes e ciências— estão enraizadas nas profundezas da evolução animal</h3>
 		<p>
-			Este artigo científico objetiva apontar alguns passos do
-			nascimento da lógica na Grécia Antiga destacando a contribuição dos
-			primeiros filósofos entre os quais, Heráclito e Parmênides. Destacando o
-			devir, afirmado pelo primeiro, que tudo muda, que a mudança é o real, e a
-			tese defendida por Parmênides que o real e verdadeiro é o que nunca muda:
-			o ser é, o não ser não é. Destaca-se também a contribuição de Platão com a
-			episteme princípio que faz e dá presença ao real, critério primeiro para a
-			lógica para a racionalidade. E Aristóteles com „logos‟ cujo objetivo era
-			mostrar um caminho correto para a construção do conhecimento e
-			demonstração científica. Também se estudou a contribuição no período
-			medieval em especial com o florescimento da escolástica de alguns das
-			mais importantes e brilhantes filósofos, que contribuíram com o
-			desenvolvimento da lógica aristotélica, entre os quais Abelardo, Tomás de
-			Aquino e Guilherme de Ockham. Trabalhou-se com a divisão da lógica em
-			lógica maior chamada também de lógica material que determina as leis
-			particulares e regras especiais e a lógica menor ou formal que estabelece as
-			condições de conformidade do pensamento trabalhando com as definições
-			de apreensão e o termo, compreensão e extensão, juízo e proposição,
-			raciocínio e argumento. Destacou-se também a argumentação dedutiva ou
-			silogismo, o silogismo jurídico e a argumentação indutiva.
-			Palavras-chave: Logos; Lógica Maior ou material; Lógica Menor ou
-			formal; Argumentação Dedutiva ou silogismo, Argumentação Indutiva.
+			Há 2.500 anos, enquanto os babilônios tomavam Jerusalém, o reino de Wu capitaneado por Sun Tzu esmagava as forças de Chu e Tales de Mileto previa um eclipse, um jovem discípulo de Pitágoras chamado Alcmeão de Crotona propôs pela primeira vez que o cérebro era a sede da mente. A ideia esfriou mais tarde porque Aristóteles determinou que a sede da mente era o coração, e que o cérebro era um mero sistema para resfriar o sangue. Hoje sabemos que Alcmeão estava certo. Mas, como Aristóteles, continuamos ignorando como o cérebro funciona e, portanto, em que consiste a natureza humana.
 		</p>
-		<h2>Introdução</h2>
 		<p>
-			É fascinante desvendar o conhecimento que as antigas civilizações detinham e
-			conseguiram deixar como contribuição para a existência do ser humano. E nisto a
-			contribuição do mundo grego é uma marca indelével para a humanidade no que se
-			refere à Filosofia e inserida nela a Lógica. São diversos os subsídios e os atores entre os
-			quais Heráclito, Parmênides, Sócrates, Platão e Aristóteles.
-			Na idade média, importantes intelectuais contribuíram para o aperfeiçoamento
-			da lógica aristotélica, destacando-se Abelardo, Tomas de Aquino, e Guilherme de Ockhan
-			. A lógica foi considerada “ciência de todas as ciências” e foi valorizando a
-			dedução em detrimento da indução.
-			Trabalhou-se como formalmente a lógica está agrupada em duas grandes
-			divisões, ou seja, a lógica formal ou lógica menor e a logica material ou maior.
-			Na lógica material ou maior se estuda, de forma mais consistente, as condições
-			de certeza, a verdade e o erro, os sofismas, o critério de certeza, a noção de ciência, o
-			método em geral, os diferentes métodos, que não foi neste primeiro momento objeto de
-			estudo.
-			Dentro da lógica formal ou menor, que compreende três partes, ou seja,
-			apreensão e do termo, do juízo e da proposição, e do raciocínio e da argumentação.
-			Verificou-se os conceitos, a forma dos juízos e raciocínios se corretos e coerentes.
-			Na argumentação foi dada ênfase à dedutiva ou silogismo e também em rápidas
-			pinceladas a argumentação indutiva.
+	Ninguém nega que entender o cérebro é um dos grandes desafios da ciência e que a pesquisa tem sido intensa, brilhante e abundante. Sabemos hoje que a chave da nossa mente é a conectividade entre os neurônios, a geometria de seus circuitos. Conhecemos os intrincados mecanismos pelos quais um neurônio decide enviar, através de seu axônio (seu output), o resultado de um complexo cálculo que fez integrando as informações de seus 10.000 dendritos (seu input). Entendemos os reforços dessas conexões (sinapses) que estão na base da nossa memória e usamos as ondas de alto nível, resultantes da atividade de milhões de neurônios, para diagnosticar doenças mentais e pesquisar o grau de consciência dos voluntários. Porém, continuamos sem entender como o cérebro gera a mente. Quem disser o contrário é um ignorante ou faz parte de uma trama criminosa.
+		</p>
+		<p>
+			Apesar das repetidas e audaciosas tentativas de associar a especificidade humana a uma porção do cérebro radicalmente nova, com uma arquitetura original e inusitada na história do planeta, os dados nos mostram teimosamente que todas as nossas peculiaridades —linguagem, matemática, moralidade e justiça, artes e ciências— estão enraizadas nas profundezas abissais da evolução animal, um processo que começou há 600 milhões de anos com o surgimento das esponjas e águas-vivas.
+		</p>
+		<p>
+			Foram as águas-vivas, precisamente, que inventaram os olhos. Existe um gene chamado PAX6 que se ocupa de desenhar o olho primitivo desses cnidários e sua conexão com os neurônios primitivos deles. Esse mesmo gene (inicialmente descoberto na mosca), também é responsável pelo desenho do olho humano e de suas leves mutações, que causam doenças congênitas, como a aniridia, ou ausência de íris; além de outra dúzia de anomalias no desenvolvimento do olho e de seus neurônios associados. Em um sentido genético profundo, nossos olhos e nosso cérebro visual tiveram origem nas águas-vivas há 600 milhões de anos.
+		</p>
+		<p>
+			E isso é apenas o começo da longa, longa história da nossa conexão com as origens da vida animal. A partir do lobo óptico dos animais primitivos, que é precisamente o domínio de ação do PAX6, vem o nosso cérebro médio (ou mesencéfalo), essencial para a visão, a audição, a regulação da temperatura corporal, o controle dos movimentos e do ciclo de sono e vigília.
+		</p>
+		<p>
+			Outro dos nossos sentidos, o olfato, também ancora suas origens na noite dos tempos da vida animal. Ele vem do nosso córtex, a camada mais externa do cérebro, que nas espécies mais inteligentes —nós, os golfinhos, as baleias, os elefantes— cresceu tanto que não caberia no crânio se não tivesse se enrugado para produzir essa fealdade abjeta que, compreensivelmente, sentimos relutância em aceitar como nossa mente. E, no entanto, ela o é.
+		</p>
+		<p>
+			Do córtex e seus associados, esses frutos evolutivos do ancestral do nosso cérebro olfativo, emanam todas as assombrosas aptidões da mente humana, tudo o que nos torna tão diferentes e de que tanto nos orgulhamos. Essa camada externa e antiestética do cérebro gera —ou, mais precisamente, encarna— nossas sensações do mundo exterior, nossas ordens voluntárias para mexer a boca ou os braços e um enxame de “áreas de associação” onde os sentidos, as lembranças e os pensamentos são integrados para produzir uma cena consciente única, o tecido do qual nossa experiência é feita.
+		</p>
+		<p>
+			Todo o cérebro é um enigma, mas se fosse preciso escolher um problema supremo nessa floresta, seria o mistério da consciência. E há uma história científica que precisa ser contada aqui. Quando adolescente, um dos grandes cientistas do século XX, Francis Crick, se preocupava com o fato de que, quando se tornasse adulto, tudo já teria sido descoberto. Quando cresceu, a primeira missão do jovem Crick foi projetar minas contra os submarinos alemães. Depois da guerra, no entanto, Crick parou para pensar que havia grandes problemas a resolver na ciência. Decidiu que os enigmas essenciais eram dois: a fronteira entre o vivo e o inerte e a fronteira entre o consciente e o inconsciente. Seu primeiro enigma foi resolvido satisfatoriamente com a dupla hélice de DNA, que descobriu com James Watson em 1953. E o segundo nunca chegou a averiguar —isso teria feito dele o maior cientista da história—, mas foi capaz de estimular pesquisadores mais jovens e os gestores dos financiamentos da ciência norte-americana para que se concentrassem nesse pináculo pendente do conhecimento. O principal de seus colaboradores nessa exploração foi Christof Koch, atual diretor do Instituto Allen de Biociência, em Seattle.
+		</p>
+		<p>
+			Quinze anos após a morte de Crick, Koch continua cativado pelo problema da consciência. Como a atividade dos neurônios individuais, e dos circuitos formado por milhares ou milhões deles, produz a sensação única e global de ser consciente, de ter acordado, de estar vivo? Essa convicção de que somos diferentes de uma água-viva, de que somos uma entidade transcendente, capaz de compreender o mundo e distinta de todas as anteriores. Vejamos o estado atual dessa linha de pesquisa crucial. É ciência básica. As aplicações sempre vêm depois de um profundo entendimento, como demonstra a história da ciência.
+		</p>
+		<p>
+			“A consciência é tudo o que você experimenta”, escreve Koch. “É a canção que se repete na sua cabeça, a doçura de uma mousse de chocolate, o latejar de uma dor de dente, o amor feroz por seu filho e o discernimento amargo de que, no final, todos esses sentimentos acabarão”. Há dois campos científicos que aspiram a competir com os poetas na interpretação do mundo: a cosmologia e a neurologia. Tem toda a lógica. Uma boa equação sintetiza uma imensa quantidade de dados em um centímetro quadrado de papel, assim como um bom verso.
+		</p>
+		<p>
+			Para filósofos como Daniel Dennett, o problema da consciência é inseparável do enigma dos qualia: o que sentimos como a vermelhidão da cor vermelha, a doçura de um doce, a sensação de dor que nos causa uma dor de dente. Esses filósofos acreditam que o enigma dos qualia não pode ser resolvido, nem sequer abordado, pela ciência, porque esses sentimentos são particulares e não podem ser comparados, aprendidos ou medidos por referências externas. Essa ideia, no entanto, contradiz o princípio geral de que a mente equivale ao cérebro, como Alcmeão de Crotona adiantou há 2.500 anos.
+		</p>
+		<p>
+			Se tudo o que acontece em nossa mente é produto de —ou melhor, é idêntico à— atividade de certos circuitos neurais, a consciência não pode ser uma exceção, ou então retornaríamos ao animismo irracional, à crença em uma alma separada do corpo, aos fantasmas e ectoplasmas. Crick e Koch decidiram pular o suposto enigma dos qualia para se concentrar em procurar os “correlatos neurais da consciência”, isto é, os circuitos mínimos suficientes para que se produza uma experiência consciente. A estratégia deu frutos.
+		</p>
+		<p>
+			Tomemos o efeito bem conhecido da rivalidade binocular. Com uma montagem simples, você pode apresentar uma imagem ao olho esquerdo de um voluntário (um retrato de Maria, por exemplo) e outra ao olho direito (um retrato de João). Você poderia pensar que o voluntário veria uma mistura chocante dos dois rostos, mas se você perguntar a ele, verá que não é assim. Ele vê Maria durante um momento, então de repente vê João, depois outra vez Maria e assim por diante. Os dois olhos rivalizam para fazer chegar suas informações à consciência (daí “rivalidade binocular”). O que muda no cérebro quando a consciência passa de um rosto ao outro?
+		</p>
+		<p>
+			Experimentos desse tipo, combinados com modernas técnicas de imagem cerebral, como a ressonância magnética funcional (fMRI), apontam repetidas vezes para a “zona quente posterior”. É composta por circuitos de três lobos (partes do córtex cerebral): o temporal (acima das orelhas), o parietal (logo acima do temporal, em todo o alto da cabeça) e o occipital (um pouco acima da nuca). Isso é em si uma surpresa, porque a maioria dos neurocientistas teria esperado encontrar consciência nos lobos frontais, a parte mais anterior do córtex cerebral e a que mais cresceu durante a evolução humana. Mas não é assim. A consciência reside em áreas posteriores do cérebro que compartilhamos com os mamíferos em geral.
+		</p>
+		<p>
+			Outra descoberta recente é que as áreas envolvidas na consciência —a zona quente posterior— não são as que recebem os sinais diretos dos olhos e dos demais sentidos. O que acontece nessas áreas primárias não é o que o sujeito vê, ou está consciente de ver. A consciência está em áreas que recebem, elaboram e interconectam essa informação primária, tanto na vista como nos outros sentidos.
+		</p>
+		<p>
+			Uma prática cirúrgica tradicional nos oferece mais pistas valiosas. Quando os neurocirurgiões têm de remover um tumor cerebral, ou os tecidos que causam ataques epilépticos muito graves, tomam uma precaução lógica: com o crânio aberto, estimulam as áreas vizinhas com eletrodos para ver exatamente onde estão no mapa do córtex, e até onde convém chegar (ou não chegar) com o bisturi. Foi assim, de fato, que foi mapeado o homúnculo motor, essa figura humana disforme que temos acima da orelha e que controla todos os nossos movimentos voluntários. Estimule aqui e o paciente move uma perna; estimule ali e moverá o dedo médio da mão esquerda, ou a língua e os lábios.
+		</p>
+		<p>
+			Quando a zona quente posterior é estimulada, o paciente experimenta todo um leque de sensações e sentimentos. Pode ver luzes brilhantes, rostos deformados e formas geométricas, ou sentir alucinações em qualquer modalidade sensorial, ou vontade de mexer um braço (mas desta vez sem chegar a movê-lo). Em sua forma normal, esse parece ser o material com o qual nossa consciência é tecida. Quando parte da zona quente é danificada por uma doença ou acidente, ou removida pelos cirurgiões, o paciente perde conteúdos da consciência. Torna-se incapaz de reconhecer o movimento de qualquer objeto ou pessoa, ou a cor das coisas, ou se lembrar de rostos que antes lhe eram familiares.
+		</p>
+		<p>
+			A neurociência, portanto, não apenas demonstrou a hipótese de Alcmeão de Crotona –que o cérebro é a sede da mente– mas também encontrou o lugar exato em que reside a consciência.
+		</p>
+		<p>
+			Entender como essa porção do cérebro funciona é uma questão muito mais difícil, que algum dia merecerá um Prêmio Nobel. Mas a mera localização da consciência na parte posterior do córtex cerebral tem uma clara implicação. A marca distintiva da evolução humana é o crescimento explosivo do córtex frontal. O córtex posterior, incluída a zona quente, nós herdamos dos nossos ancestrais mamíferos e além. Muitos animais, portanto, devem ser conscientes: eles têm uma mente no sentido de Alcmeão. É uma ideia perturbadora, mas teremos de aprender a viver com ela e a administrar suas implicações.
+		</p>
+		<p>
+			Compreender o cérebro é, sem dúvida, um dos maiores desafios que a ciência atual enfrenta. Trata-se do objeto mais complexo de que temos notícia no universo, e a tarefa é formidável. Mas a recompensa será grande para a pesquisa e o pensamento. Talvez não falte tanto para isso.
 		</p>
 	</section>
-	<aside>
+<!-- 	<aside>
 			<h3>
 				<i>Joguem PES 2019</i>
 			</h3>
 			<a href="https://www.konami.com/wepes/2019/us/pt-br/" target="_blank">
 				<img src="img/pes.png" alt="Ao lado direito da imagem está Phelippe Coutinho comemorando um gol, com uma arquibancada lotada no fundo e a logo 'PES2019' com pes em vermelho e 2019 em vermelho, logo abaixo do 'PES2019' esta escrito 'PRO EVOLUTION SOCCER 2019' em branco ">
 			</a>
-		</aside>
-		<footer>
-		<pre> nomeRevista					Facebook: nomeRevista			Twitter: nomeRevista</pre>
-	</footer>
+		</aside> -->
+
+	<br>
+	<h1 id="ConteudoFilo">Conteúdo adicional</h1>
+	<p>Breve resumo a respeito de algumas áreas da filosofia</p>
+	<br>
+
+	<div class="container">
+		<article class="table-responsive-sm ">
+			<table class = "table table-dark table-hover">
+				<thead>
+					<tr id="thead">
+						<th>Assunto</th>
+						<td>Lógica</td>
+						<td>Ontologia</td>
+						<td>Axiologia</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr id="tbody">
+						<th>Resumo</th>
+						<td >
+							<p>
+								A Lógica é a ciência das inferências válidas.
+								Uma inferência é válida quando está em conformidade com os procedimentos que governam o pensamento correcto. O objecto da lógica é, então, o de destrinçar as leis que autorizam esses procedimentos, de os explicar, e de os formular.
+							</p>
+						</td>
+						<td>
+							<p>
+								Segundo o aristotelismo, parte da filosofia que tem por objeto o estudo das propriedades mais gerais do ser, apartada da infinidade de determinações que, ao qualificá-lo particularmente, ocultam sua natureza plena e integral.
+							</p>
+						</td>
+						<td>
+							<p>
+								Axiologia, também chamada de teoria de valor, é o estudo filosófico prático que busca entender a natureza dos valores e os juízos de valor e como eles surgem na sociedade.
+								A axiologia está intimamente relacionada a dois outros domínios da filosofia: ética e estética. Todos os três ramos lidam com o valor.
+							</p>
+						</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr id="trFoot">
+						<th>Conteúdos</th>
+						<td>Algumas considerações sobre lógica-Amauri Paulo Cervo</td>
+						<td>Uma abordagem integrada sobre ontologias:Ciência da Computação e Filosofia</td>
+						<td>Apontamentos sobre o valor</td>
+					</tr>
+				</tfoot>
+			</table>
+		</article>
+	</div>
+
+	<a role="button" href="#rua" class="btn btn-outline-info" style="margin-left: 50%;margin-top: 10px">Voltar ao topo</a>
+		<footer class="row" style="margin-top: 50px">
+			<div class="col-4 bg-dark text-white" style="text-align: center;" >	nomeRevista</div>
+			<div class="col-4 bg-dark text-white" style="text-align: center;" >	Facebook: nomeRevista</div>
+			<div class="col-4 bg-dark text-white" style="text-align: center;" >	Twitter: nomeRevista</div>
+		</footer>
 </body>
 </html>

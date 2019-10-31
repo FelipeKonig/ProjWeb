@@ -52,17 +52,23 @@
 		font-family: 'Mansalva', cursive;
 	}
 
+	header{
+		padding-bottom: 5px;
+		border-bottom-color: white;
+
+	}
+
 
 	.linksNav:link {
 		color: white;
 	}
 
 	.linksNav:visited {
-		color: black;
+		color: #c6cf63;
 	}
 
 	.linksNav:hover {
-		color: #075252;
+		color: #a3e6a5;
 	}
 
 	.linksNav:active {
@@ -76,11 +82,11 @@
 	}
 
 	#firstLinkNav:visited {
-		color: black;
+		color: #c6cf63;
 	}
 
 	#firstLinkNav:hover {
-		color: #075252;
+		color: #a3e6a5;
 	}
 
 	#firstLinkNav:active {
@@ -139,4 +145,28 @@
 
 	.linkGuia2:active {
 		color: black;
+	}
+
+	table, th, td {
+	border: solid 1px black;
+	border-collapse: collapse;
+	padding: 10px;
+	}
+
+	#thead{
+		text-align: center;
+		font-weight: bold;
+	}
+
+	#tbody{
+		text-align: center;
+	}
+
+	#trFoot{
+		text-align: justify;
+	}
+
+	#ConteudoFilo{
+		text-align: center;
+		font-style: oblique;
 	}
