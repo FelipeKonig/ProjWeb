@@ -13,6 +13,11 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	  $('.toast').toast('show');
+	});
+	</script>
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -34,6 +39,7 @@
 		<a class="linksNav" href="biologia.html" target="_self" > Biologia</a>
 		<a class="linksNav" href="bizarro.html" target="_self" >Bizarro</a>
 	</nav>
+
 	<br>
 <!-- 		<section >
 			<div>
@@ -57,10 +63,13 @@
 				</fieldset>
 		</div>
 		</section> -->
+
+		
+
 		<article class="row" style=" background-color: #ded9d9;">
-			<section class="col-md-3 card text-center" style="margin-top: 5%;margin-left: 3%">
-				Aqui vai ser colocado o forms do login
-			</section>
+			<div class="col-md-3 card text-center" style="margin-top: 5%;margin-left: 3%">
+				<p>Aqui vai ser colocado o forms do login</p>
+			</div>
 
 			<div class="col-md-3 card text-center" style="margin-left: 7%;margin-top: 5%;">
 				<img class="card-img-top" src="img/consciencia.png" alt="Card image">
@@ -76,7 +85,7 @@
 				 	<div class="card-body">
 					    <h4 class="card-title">Biologia</h4>
 					    <p class="card-text">Bactéria de Schrödinger pode ser um marco na biologia quântica</p>
-					    <a href="#" class="stretched-link"></a>
+					    <a href="biologiaNoticia.html" class="stretched-link"></a>
 					</div>
 			</div>
 
@@ -124,5 +133,8 @@
 			<div class="col-4 bg-dark text-white" style="text-align: center;" >	Facebook: nomeRevista</div>
 			<div class="col-4 bg-dark text-white" style="text-align: center;" >	Twitter: nomeRevista</div>
 		</footer>
+
+
+
 </body>
 </html>

@@ -28,6 +28,14 @@
 		color: #fc6a0f;
 	}
 
+	.subTituloPagina{
+		font-family: 'Noto Sans', sans-serif;
+		text-indent: 25px;
+		margin-left: 18%;
+		text-align: center;
+		margin-right: 5%;
+	}
+
 	p{
 		font-family: 'Noto Sans', sans-serif;
 		text-indent: 25px;
