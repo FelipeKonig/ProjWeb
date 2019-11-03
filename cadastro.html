@@ -1,109 +1,133 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="style/style.css">
-	<script src="vendor/jquery/jquery-3.4.1.min.js"></script>
-	<script src="vendor/js/bootstrap.bundle.min.js"></script>
-	<link rel="icon" href="img/icon.ico" />
-	<title>Cadastro</title>
-	<link rel="stylesheet" type="text/css" href="css\style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="img/icon.ico" />
+  <title>Cadastro</title>
+  
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet"  href="css/style.css">
+
+  <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+
 </head>
 <body>
-	<header>
-		<pre>		Endereco							Canoinhas-Santa Catarina				nºtelefone
-		</pre>
-	</header>
-	<nav>
-		<a href="historia.html" class="navA1" target="_self"> História</a>
-		<a href="tecnologias.html" class="navA1" target="_self"> Tecnologias</a>
-		<a href="filosofia.html" class="navA1" target="_self"> Filosofia</a>
-		<a href="fisica.html" class="navA1" target="_self" > Física</a>
-		<a href="biologia.html" class="navA1" target="_self" > Biologia</a>
-		<a href="bizarro.html" class="navA1" target="_self" >Bizarro</a>
-	</nav>
-		<section>
-		<h2>Cadastro</h2>
+  
 
-		<div class="container">
+<div class="fixed-top">
+  <header class="topbar">
+      <div class="container">
+        <div class="row">
+          <!-- social icon-->
+          <div class="col-sm-12">
+          
+              <button type="button" class="waves-effect waves-dark btn btn-lg btn-fb"><i class="fab fa-facebook-f pr-1"></i> Facebook</button>
+              <button type="button" class="waves-effect waves-dark btn btn-ins"><i class="fab fa-instagram pr-1"></i> Instagram</button>
+              <button type="button" class="waves-effect waves-dark btn btn-gplus"><i class="fab fa-google-plus-g pr-1"></i> Google +</button>
 
-		<form action="/ProjWeb/html/bdAleatorio.txt" method="get" >
 
-			<label for="nome">Nome:</label>
-			
-			<div class="form-inline">
+              <button type="button" class="waves-effect waves-dark btn btn-tw"><i class="fab fa-twitter pr-1"></i> Twitter</button>
+     
+          </div>
 
-				<input type="text" class="form-control " name="nomeCompleto" autofocus/>
+        </div>
+      </div>
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-dark mx-background-top-linear">
+    <div class="container">
+      <a class="navbar-brand" href="#" style="text-transform: uppercase;"> Revista Científica</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
 
-			</div>
-		
-			<label for="nome">Email:</label>
+        <ul class="navbar-nav ml-auto">
 
-			<div class="form-inline">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
 
-				<input type="text"  class="form-control " name="E-mail">
+          <li class="nav-item">
+            <a class="nav-link" href="#">História</a>
+          </li>
 
-			</div>
+         <li class="nav-item">
+            <a class="nav-link" href="#">Tecnologias</a>
+          </li>
 
-				<div class="input-group">
-  					<div class="input-group-prepend">
-    					<label class="input-group-text" for="inputGroupSelect01">Estado civil</label>
- 					</div>
- 				
-  				 <select class="custom-select" id="inputGroupSelect01"  data-style="btn-danger">
-   				<option value="Casado">Casado(a)</option>
-   				<option value="Solteiro">Solteiro(a)</option>
-    			<option value="Viuvo">Viúvo(a)</option>
-  				</select>
-				</div>
-			
+          <li class="nav-item">
+            <a class="nav-link" href="#">Filosofia</a>
+          </li>
 
-				<div class="input-group">
-  					<div class="input-group-prepend">
-    					<label class="input-group-text" for="inputGroupSelect01">Idade</label>
- 					</div>
- 				
-  				 <select class="custom-select" id="inputGroupSelect01"  data-style="btn-danger">
-   				<option value="Crianca">Menos de 12 anos</option>
-   				<option value="PreAdolescente">Entre 16 e 21 anos</option>
-    			<option value="Adulto">Entre 21 e 60 anos</option>
-    			<option value="Velho">Mais de 60 anos</option>
-  				</select>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Física</a>
+          </li>
 
-				</div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Biologia</a>
+          </li>
 
-				Sexo:	
-				<input type="checkbox" name="Sexo" value="Masculino"> Masculino
-				<input type="checkbox" name="Sexo" value="Feminino"> Feminino
-				<input type="checkbox" name="Sexo" value="Outro"> Outro
-				<br>
-				Endereco:
-				<br>
-				<input rows="5"  class="form-control cols="20" name="Endereco">
-				<input type="submit" value="Cadastrar" style="width: 15%" />
-				<input type="reset" value="Limpar" style="width: 15%" />
-		<!--	</fieldset> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">Bizarro</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
 
-			</form>
-	</section>
+  
+       <section></section>
 
-	<aside >
-		<br>
-		<br>
-		<h3>
-			<mark>Propaganda do Campeonato de xadrez</mark>
-		</h3>
-		<a href="https://www.chess.com/" target="_blank">
-			<img src="img/xadrez.png" alt="Imagem propaganda de campeonato de xadrez">
-		</a>
-	</aside>
-	
-	<footer >
-		<pre> nomeRevista					Facebook: nomeRevista			Twitter: nomeRevista</pre>
-	</footer>
 
-	</div>
+
+<footer class="section footer-classic context-dark bg-image" style="background: #222;">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-md-4 col-xl-5">
+              <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="images/agency/logo-inverse-140x37.png" alt="" width="140" height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
+                <p>Somos divulgadores de conteúdos de ciência, dedicados ao melhor resultado em web para pesquisas acadêmicas.</p>
+                <!-- Rights-->
+                <p class="rights"><span>©  </span><span class="copyright-year">2019</span><span> </span><span>Waves</span><span>. </span><span>All Rights Reserved.</span></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h5>Contacts</h5>
+              <dl class="contact-list">
+                <dt>Endereço:</dt>
+                <dd>666 Avenida Expedicionários, Campo da Água Verde, Canoinhas, SC</dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>E-mail:</dt>
+                <dd><a href="mailto:#">suporterevista@gmail.com</a></dd>
+              </dl>
+            </div>
+            <div class="col-md-4 col-xl-3">
+              <h5>Links</h5>
+              <ul class="nav-list">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contatos</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row no-gutters social-container">
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+        </div>
+      </footer>
+
 </body>
 </html>

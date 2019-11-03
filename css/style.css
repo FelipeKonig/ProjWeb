@@ -16,10 +16,6 @@
 		margin-top: 10px;
 	}
 
-	#textoLink{
-	
-	}
-
  
 	body {
     margin: 0;
@@ -188,37 +184,36 @@ li {
     background: -webkit-linear-gradient(left, #54d400 48%, #1b1e21 48%);
     background: linear-gradient(45deg, #54d400 48%, #1b1e21 48%);
 }
-    #imagemDaVinci{
-        margin-left: 33%;
-        margin-right: 18%;
+    #Imagem{
+     top: 100px; 
+     left: 300px;
+     position: relative;
     }
 	 p{
-        margin-bottom: 1%;
 		font-family: 'Noto Sans', sans-serif;
-		text-indent: 25px;
-		margin-left: 18%;
+		text-indent: 28px;
+		margin-left: 23%;
 		text-align: justify;
-		margin-right: 5%;
+		margin-right: 10%;
+
 	}
+
+
 
 	h1,h2,h3 {
 		font-family: 'Oswald', sans-serif;
-        margin-left: 18%;
+        margin-left: 23%;
+        font-weight: bold;
+        text-align: justify;
 	}
 
-	#TituloPintura{
-		margin-left: 18%;
+
+	#Titulo1{
+		margin-left: 23%;
 		text-align: justify;
 		font-weight: bold;
-        padding-top: 150px;
+        padding-top: 100px;
 	}
-
-    #TituloVirgemRochas{
-        text-align: justify;
-        font-weight: bold;
-        margin-left: 18%;
-        padding-top: 10px;
-    }
 
 	li{
 		font-family: 'Mansalva', cursive;
@@ -322,3 +317,10 @@ ul, ol {
     visibility: hidden;
     transition: .22s ease;
 }
+
+
+
+/*
+Aqui outro código
+
+*/
