@@ -4,9 +4,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="img/icon.ico" />
-  <title>Cadastro</title>
-  
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -15,12 +12,9 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="stylesheet"  href="css/style.css">
 
-  <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
-
-
+  <title>Cadastro</title>
 </head>
 <body>
-  
 
 <div class="fixed-top">
   <header class="topbar">
@@ -28,14 +22,12 @@
         <div class="row">
           <!-- social icon-->
           <div class="col-sm-12">
-          
               <button type="button" class="waves-effect waves-dark btn btn-lg btn-fb"><i class="fab fa-facebook-f pr-1"></i> Facebook</button>
               <button type="button" class="waves-effect waves-dark btn btn-ins"><i class="fab fa-instagram pr-1"></i> Instagram</button>
               <button type="button" class="waves-effect waves-dark btn btn-gplus"><i class="fab fa-google-plus-g pr-1"></i> Google +</button>
 
 
               <button type="button" class="waves-effect waves-dark btn btn-tw"><i class="fab fa-twitter pr-1"></i> Twitter</button>
-     
           </div>
 
         </div>
@@ -86,10 +78,82 @@
   </nav>
 </div>
 
-  
-       <section></section>
+  <div class="row">
+    <form id="Titulo1" action="/ProjWeb/html/bdAleatorio.txt" method="get">
+     <fieldset>
 
+         <legend>Cadastro de usuário</legend>
 
+         <div class="form-group col-md-15">
+             <label for="nome" autofocus>Nome completo</label>
+             <input type="text" class="form-control" id="nome" name="nome">
+         </div>
+
+         <div class="form-group col-md-15">
+             <label for="email">Email</label>
+             <input type="email" class="form-control" id="email" name="email">
+         </div>
+
+         <div class="form-group col-md-15">
+             <label for="cpf">CPF</label>
+             <input type="text" class="form-control" id="cpf" name="cpf">
+         </div>
+
+        
+
+         <div class="form-group col-md-15">
+           Estado Civil
+         <select class="custom-select">
+             <option disabled selected>Selecione uma opção...</option>
+             <option value="Solteiro(a)">Solteiro(a)</option>
+             <option value="Casado(a)" >Casado(a)</option>
+             <option value="Viuvo">Viúvo</option>
+         </select>
+
+          </div>
+
+         
+         <div class="form-group col-md-15" >
+           Idade
+         <select class="custom-select">
+            <option disabled selected>Selecione uma opção...</option>
+            <option value="Crianca">Menos de 12 anos</option>
+            <option value="PreAdolescente">Entre 12 e 16 anos</option>
+            <option value="Adolescente">Entre 16 e 21 anos</option>
+            <option value="Adulto">Entre 21 e 60 anos</option>
+            <option value="Velho">Mais de 60 anos</option>
+         </select>
+        </div>
+ 
+         <div class="form-group col-md-15">
+         Gênero
+
+          <select class="custom-select">
+
+            <option disabled selected id="genero">Selecione uma opção...</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+            <option value="Outros">Outros</option>
+         </select>
+        </div>
+      <div class="form-group col-md-15">
+        <button type="reset" class="btn btn-primary mb-3">
+              Cadastrar
+        </button>
+      </div>
+
+         <div class="form-group custom-control custom-checkbox">
+             <input type="checkbox" class="custom-control-input" id="newsletter"
+                             value="sim" checked>
+             <label class="custom-control-label" for="newsletter">
+                 Quero receber notícias da revista científica
+             </label>
+
+         </div>
+     </fieldset>
+
+ </form>
+  </div>
 
 <footer class="section footer-classic context-dark bg-image" style="background: #222;">
         <div class="container">
