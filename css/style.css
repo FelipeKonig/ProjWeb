@@ -203,6 +203,7 @@ li {
 	h1,h2,h3 {
 		font-family: 'Oswald', sans-serif;
         margin-left: 23%;
+        margin-right: 10%;
         font-weight: bold;
         text-align: justify;
 	}
