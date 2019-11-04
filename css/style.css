@@ -159,11 +159,11 @@
 		color: black;
 	}
 
-	.dropdown-item: hover{
+	.dropdown-item:hover{
 		color: red;
 	}
 
-	.dropdown-item: active{
+	.dropdown-item:active{
 		color: black;
 	}
 
