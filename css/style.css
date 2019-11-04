@@ -159,6 +159,14 @@
 		color: black;
 	}
 
+	.dropdown-item: hover{
+		color: red;
+	}
+
+	.dropdown-item: active{
+		color: black;
+	}
+
 	table, th, td {
 	border: solid 1px black;
 	border-collapse: collapse;
