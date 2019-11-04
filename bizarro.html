@@ -1,72 +1,118 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang = "pt-br">
 <head>
-	<meta charset="utf-8">
+	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="icon" href="img/icon.ico" />
-	<title>Bizarro</title>
-	<link rel="stylesheet" type="text/css" href="css\style.css">
-	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+	<meta name="description" content="Site com várias notícias de revistas científicas" />
+	<meta name="keywords" content="ciência,história,biologia,fisica,historia,filosofia,biologia" />
+	<meta name="author" content="Felipe Konig,Ramon Becker" />
+	<meta name="robots" content="index,follow" />
+
+	<title>Filosofia</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<header>
-		<pre>		Endereco							Canoinhas-Santa Catarina				nºtelefone
-		</pre>
+	<header class="row" >
+			<div class="col-4 bg-dark text-white" style="text-align: center;" >		Av. Expedicionários</div>
+			<div class="col-4 bg-dark text-white" id="cidade" style="text-align: center;" >		Canoinhas-Santa Catarina</div>
+			<div class="col-4 bg-dark text-white" style="text-align: center;" >		(47)99949-7824</div>
+
 	</header>
-	<nav>
-		<a href="historia.html" class="navA1" target="_self"> História</a>
-		<a href="tecnologias.html" class="navA1" target="_self"> Tecnologias</a>
-		<a href="filosofia.html" class="navA1" target="_self"> Filosofia</a>
-		<a href="fisica.html" class="navA1" target="_self" > Física</a>
-		<a href="biologia.html" class="navA1" target="_self" > Biologia</a>
-		<a href="bizarro.html" class="navA1" target="_self" >Bizarro</a>
+	<nav class="col-md-12 p-3 bg-dark text-white">
+		<img src="img/logo2.png" class="col-md mx-auto " style="width: 80px;" alt=" ">
+		<a id="titulo">Revista Científica</a>
+
+		<a id="firstLinkNav" href="historia.html" target="_self" > História</a>
+		<a class="linksNav" href="tecnologias.html" target="_self" > Tecnologias</a>
+		<a class="linksNav" href="filosofia.html" target="_self" > Filosofia</a>
+		<a class="linksNav" href="fisica.html" target="_self" > Física</a>
+		<a class="linksNav" href="biologia.html" target="_self" > Biologia</a>
+		<a class="linksNav" href="bizarro.html" target="_self" >Bizarro</a>
 	</nav>
-	<article >
-		<h3>Bizarro</h3>
-			<ul>
-				<li>
-					<h2>Conteúdos</h2>
-					<ul>
-						<li>Físicos divulgam instruções passo-a-passo de como criar um buraco de minhoca espacial</li>
-						<li>Especialistas confirmam que a explosão russa do início de agosto provavelmente foi em um reator nuclear</li>
-						<li>Esqueletos com cabeças “alienígenas” são encontrados na Croácia</li>
-						<li>Mulher encontra diamante de quase 4 quilates enquanto assiste a um vídeo de como encontrar diamantes</li>
-						<li>Coelho ou corvo? Ilusão de ótica confunde seriamente a internet</li>
-					</ul>
-				</li>
-			</ul>
-	</article>
-	<aside >
-			<br>
-			<br>
-			<h3>
-				<mark>Acesse o tomate</mark>
-			</h3>
-			<a href="http://tomate.tv/" target="_blank">
-				<img src="img/tomate.png" alt="Imagem ilutrativa de um tomate no centro cobrindo maior parte da tela com um fundo branco">
-			</a>
-		</aside>
-		<section >
-			<h2>Físicos divulgam instruções passo-a-passo de como criar um buraco de minhoca espacial</h2>
-			<p>
-				Buracos de minhoca são incríveis. São as coisas mais próximas que temos de um teletransporte de verdade: entre em um e saia em qualquer canto obscuro do universo. Quem não quer?
-				O único (não o único, mas provavelmente o mais relevante) problema é que buracos de minhoca espaciais são notavelmente instáveis. Se um minúsculo fóton tenta atravessá-lo, o canal se colapsa mais rápido que a velocidade da luz.
 
-				Mas deve haver um jeito de fazer essa joça funcionar, certo? Afinal, somos humanos e não desistimos nunca.
-				E uma equipe de cientistas pode justamente ter descoberto uma maneira de construir um buraco de minhoca (quase) estável – ele eventualmente colapsa, mas devagar o suficiente para podermos mandar mensagens, e talvez outras coisas, através dele.
-			</p>
-			<h3>Passo-a-passo</h3>
-			<p>
-				O passo-a-passo para a criação de tal buraco de minhoca foi publicado no portal arXiv. Você pode ler as instruções se quiser, mas já adianto que não é exatamente um item DIY*: você precisa de algumas coisinhas um tanto difíceis de se conseguir, como buracos negros e cordas cósmicas infinitamente longas.
+	<br>
 
-				Na teoria, criar um buraco de minhoca é moleza: Einstein já nos ensinou que massa e energia podem dobrar o tecido do espaço-tempo. Em certas configurações de matéria e energia, isso cria um túnel que liga duas regiões muito distantes do universo.A questão é manter esse túnel funcional, sem colapsar ao menor sinal de uma minúscula partícula tentando passar por ele. O pessoal da ciência já veio com algumas ideias, como a da massa negativa, ou matéria com peso oposto para neutralizar os efeitos desestabilizadores da matéria regular tentando atravessar o buraco de minhoca. Só que matéria com massa negativa não existe.
 
-				Também já se cogitou usar um buraco branco (onde nada pode entrar), junto com um buraco negro (de onde nada pode sair) para criar um buraco de minhoca atravessável. De novo, no entanto, não existem buracos brancos.
-			</p>
-		</section>
-		<footer >
-		<pre> nomeRevista					Facebook: nomeRevista			Twitter: nomeRevista</pre>
+	<h1 style="margin-left: 43%;">Filosofia</h1>
+	<p class="subTituloPagina" >Amor pela sabedoria, experimentado apenas pelo ser humano consciente de sua própria ignorância [Segundo autores clássicos, sentido original do termo, atribuído ao filósofo grego Pitágoras (sVI a.C.).].</p>
+
+	<div class="dropdown" style="margin-left: 23%;">
+	  <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+	    Selecione uma notícia!
+	  </button>
+	  <div class="dropdown-menu">
+	    <a class="dropdown-item" href="FilosofiaNoticia.html">Como a atividade dos neurônios produz essa sensação única de estar vivo e consciente?</a>
+	    <a class="dropdown-item" href="#">“Filosofia não faz perguntas para encontrar respostas, mas sim para questionar as já estabelecidas”</a>
+	    <a class="dropdown-item" href="#">O feminismo que nasceu com Simone de Beauvoir</a>
+	    <a class="dropdown-item" href="#">“Filosofia não faz perguntas para encontrar respostas, mas sim para questionar as já estabelecidas”</a>
+	    <a class="dropdown-item" href="#">Morre Agnes Heller, a filósofa da vida cotidiana que sobreviveu ao Holocausto</a>
+	  </div>
+	</div>
+	<br>
+
+	<article class="row" style=" background-color: #ded9d9;">
+
+			<div class="col-md-3 card text-center" style="margin-left: 7%;margin-top: 5%;">
+				<img class="card-img-top" src="img/agnesHeller.png" alt="Card image">
+				<div class="card-body">
+			    	<h4 class="card-title">Filosofia</h4>
+			    	<p class="card-text" >Morre Agnes Heller, a filósofa da vida cotidiana que sobreviveu ao Holocausto</p>
+      				<a href="#" class="stretched-link"></a>
+			 	</div>
+			</div>
+
+			<div class="col-md-3 card text-center" style="margin-left: 7%;margin-top: 5%;">
+				<img class="card-img-top" src="img/Consciencia.png" alt="Card image">
+				<div class="card-body">
+			    	<h4 class="card-title">Filosofia</h4>
+			    	<p class="card-text" >Como a atividade dos neurônios produz essa sensação única de estar vivo e consciente?</p>
+      				<a href="#FilosofiaNoticia.html" class="stretched-link"></a>
+			 	</div>
+			</div>
+
+			<div class="col-md-3 card text-center" style="margin-left: 7%;margin-top: 5%;">
+				   <img class="card-img-top" src="img/simoneDeBeau.png" alt="Card image">
+				 	<div class="card-body">
+					    <h4 class="card-title">Filosofia</h4>
+					    <p class="card-text">O feminismo que nasceu com Simone de Beauvoir</p>
+					    <a href="biologiaNoticia.html" class="stretched-link"></a>
+					</div>
+			</div>
+
+
+			<div class="col-md-3 card text-center" style="margin-left: 24%;margin-top: 5%;margin-bottom: 2%">
+				 	<div class="card-body">
+					    <h4 class="card-title">Filosofia</h4>
+					    <p class="card-text">Como mudar o sistema educativo para transformar o mundo</p>
+					    <a href="#" class="stretched-link"></a>
+					    <img class="card-img-bottom" src="img/sistemaEducativo.png" alt="Card image">
+					</div>
+			</div>
+
+			<div class="col-md-3 card text-center" style="margin-left: 7%; margin-top: 5%;margin-bottom: 2%">
+				 	<div class="card-body">
+					    <h4 class="card-title">Filosofia</h4>
+					    <p class="card-text">As supernovas que podem ter mudado a biologia da Terra com radiação</p>
+					    <a href="#" class="stretched-link"></a>
+					    <img class="card-img-bottom" src="img/darioSztajn.png" alt="Card image">
+					</div>
+			</div>
+		</article>
+		
+		<footer class="row" style="margin-top: 50px">
+			<div class="col-4 bg-dark text-white" style="text-align: center;" >	nomeRevista</div>
+			<div class="col-4 bg-dark text-white" style="text-align: center;" >	Facebook: nomeRevista</div>
+			<div class="col-4 bg-dark text-white" style="text-align: center;" >	Twitter: nomeRevista</div>
 		</footer>
+
+
+
 </body>
 </html>

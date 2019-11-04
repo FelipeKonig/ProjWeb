@@ -9,22 +9,39 @@
 	<meta name="author" content="Felipe Konig,Ramon Becker" />
 	<meta name="robots" content="index,follow" />
 	<title>Home</title>
-	<link rel="stylesheet" type="text/css" href="css\styleHome.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	  $('.toast').toast('show');
+	});
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<header>
-		<pre>		Endereco							Canoinhas-Santa Catarina				nºtelefone
-		</pre>
+	<header class="row" >
+			<div class="col-4 bg-dark text-white" style="text-align: center;" >		Av. Expedicionários</div>
+			<div class="col-4 bg-dark text-white" id="cidade" style="text-align: center;" >		Canoinhas-Santa Catarina</div>
+			<div class="col-4 bg-dark text-white" style="text-align: center;" >		(47)99949-7824</div>
+
 	</header>
-	<nav>
-		<a href="historia.html" class="navA1" target="_self"> História</a>
-		<a href="tecnologias.html" class="navA1" target="_self"> Tecnologias</a>
-		<a href="filosofia.html" class="navA1" target="_self"> Filosofia</a>
-		<a href="fisica.html" class="navA1" target="_self" > Física</a>
-		<a href="biologia.html" class="navA1" target="_self" > Biologia</a>
-		<a href="bizarro.html" class="navA1" target="_self" >Bizarro</a>
+	<nav class="col-md-12 p-3 bg-dark text-white">
+		<img src="img/logo2.png" class="col-md mx-auto " style="width: 80px;" alt=" ">
+		<a id="titulo">Revista Científica</a>
+
+		<a id="firstLinkNav" href="historia.html" target="_self" > História</a>
+		<a class="linksNav" href="tecnologias.html" target="_self" > Tecnologias</a>
+		<a class="linksNav" href="filosofia.html" target="_self" > Filosofia</a>
+		<a class="linksNav" href="fisica.html" target="_self" > Física</a>
+		<a class="linksNav" href="biologia.html" target="_self" > Biologia</a>
+		<a class="linksNav" href="bizarro.html" target="_self" >Bizarro</a>
 	</nav>
-		<section >
+
+	<br>
+<!-- 		<section >
 			<div>
 				<h3>Conta</h3>
 				<fieldset>
@@ -45,37 +62,79 @@
 					 <a href="cadastro.html" target="_self">Cadastre-se</a>
 				</fieldset>
 		</div>
-		</section>
-		<aside>
-			<br>
-			<br>
-			<h3>
-				<mark>Propaganda do Facebook</mark>
-			</h3>
-			<a href="https://pt-br.facebook.com/" target="_blank">
-				<img src="img/fb.png" alt="Imagem propaganda do facebook para complemento de Aside do página">
-			</a>
-		</aside>
-		<article>
-			<div>
-				<br>
-				<br>
-				<h2 id="h2Div" >O que é uma revista científica?</h2>
-				<p id="pDiv">
-					No campo das publicações acadêmicas, uma revista científica é uma publicação periódica destinada a promover o progresso da ciência, geralmente noticiando novas pesquisas. A maioria das revistas são altamente especializadas, embora algumas das publicações mais antigas tais como Nature publiquem artigos e dissertações científicas abrangendo uma vasta gama de campos científicos. Revistas científicas contém artigos que foram submetidos a revisão por pares, numa tentativa de assegurar que estes artigos vão ao encontro dos padrões de qualidade e validade científica da publicação. Embora revistas científicas sejam superficialmente similares a revistas profissionais, na verdade elas são bem diferentes destas. Edições de uma revista científica raramente são lidas casualmente, como se lê uma revista qualquer. A publicação dos resultados de pesquisa é parte essencial do método científico; eles geralmente devem suprir detalhes suficientes sobre um experimento, para que um pesquisador independente possa repetir o processo e verificar os resultados. Cada artigo da revista se torna parte de um registro científico permanente.
+		</section> -->
 
-					A história das revistas científicas começa em 1665, quando o francês Journal des Savants e o inglês Philosophical Transactions of the Royal Society começaram a publicar sistematicamente resultados de pesquisas científicas. Mais de mil publicações, a maioria de existência efêmera, foram fundadas no século XVIII, e o número aumentou rapidamente depois disso.
+		
 
-					Nas revistas acadêmicas se sedimentam práticas, que acabam por refletir a forma como se dá a autoria dos artigos, a regionalização, as relações de gênero etc.
-				</p>
-				<h3 id="h3Div">Fonte:
-					<a href="https://pt.wikipedia.org/wiki/Revista_cient%C3%ADfica" target="_blank">Wikipédia</a>
-				</h3>
+		<article class="row" style=" background-color: #ded9d9;">
+			<div class="col-md-3 card text-center" style="margin-top: 5%;margin-left: 3%">
+				<p>Aqui vai ser colocado o forms do login</p>
 			</div>
-		</article>
 
-	<footer>
-		<pre> nomeRevista					Facebook: nomeRevista			Twitter: nomeRevista</pre>
-	</footer>
+			<div class="col-md-3 card text-center" style="margin-left: 7%;margin-top: 5%;">
+				<img class="card-img-top" src="img/consciencia.png" alt="Card image">
+				<div class="card-body">
+			    	<h4 class="card-title">Filosofia</h4>
+			    	<p class="card-text" >Como a atividade dos neurônios produz essa sensação única de estar vivo e consciente?</p>
+      				<a href="#" class="stretched-link"></a>
+			 	</div>
+			</div>
+
+			<div class="col-md-3 card text-center" style="margin-left: 7%;margin-top: 5%;">
+				   <img class="card-img-top" src="img/bacteria.png" alt="Card image">
+				 	<div class="card-body">
+					    <h4 class="card-title">Biologia</h4>
+					    <p class="card-text">Bactéria de Schrödinger pode ser um marco na biologia quântica</p>
+					    <a href="biologiaNoticia.html" class="stretched-link"></a>
+					</div>
+			</div>
+
+
+			<div class="col-md-2 card text-center" style="margin-left: 3%;margin-top: 5%;margin-bottom: 2%">
+				   <img class="card-img-top" src="img/buracoMinhoca.png" alt="Card image">
+				 	<div class="card-body">
+					    <h4 class="card-title">Bizarro</h4>
+					    <p class="card-text">Físicos divulgam o passo-a-passo de como criar um buraco de minhoca espacial com instruções</p>
+					    <a href="#" class="stretched-link"></a>
+					</div>
+			</div>
+
+			<div class="col-md-3 card text-center" style="margin-left: 1%; margin-top: 5%;margin-bottom: 2%">
+				   <img class="card-img-top" src="img/newton-einstein-gravidade.png" alt="Card image">
+				 	<div class="card-body">
+					    <h4 class="card-title">Física</h4>
+					    <p class="card-text">Newton está errado e Einstein é o próximo, diz astrofísica</p>
+					    <a href="#" class="stretched-link"></a>
+					</div>
+			</div>
+
+
+			<div class="col-md-3 card text-center" style="margin-left: 1%; margin-top: 5%;margin-bottom: 2%">
+				   <img class="card-img-top" src="img/versao-oculta-pintura.png" alt="Card image">
+				 	<div class="card-body">
+					    <h4 class="card-title">História</h4>
+					    <p class="card-text">Pintura oculta sob obra-prima de da Vinci é revelada</p>
+					    <a href="#" class="stretched-link"></a>
+					</div>
+			</div>
+
+			<div class="col-md-3 card text-center" style="margin-left: 1%; margin-top: 5%;margin-bottom: 2%">
+				   <img class="card-img-top" src="img/winux.png" alt="Card image">
+				 	<div class="card-body">
+					    <h4 class="card-title">Tecnologia</h4>
+					    <p class="card-text">Linux X Windows - Quais as principais diferenças?</p>
+					    <a href="#" class="stretched-link"></a>
+					</div>
+			</div>
+			  
+		</article>
+		<footer class="row" style="margin-top: 50px">
+			<div class="col-4 bg-dark text-white" style="text-align: center;" >	nomeRevista</div>
+			<div class="col-4 bg-dark text-white" style="text-align: center;" >	Facebook: nomeRevista</div>
+			<div class="col-4 bg-dark text-white" style="text-align: center;" >	Twitter: nomeRevista</div>
+		</footer>
+
+
+
 </body>
 </html>

@@ -1,28 +1,33 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang = "pt-br">
 <head>
-	<meta charset="utf-8">
+	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" href="img/icon.ico" />
+	<meta name="description" content="Site com várias notícias de revistas científicas" />
+	<meta name="keywords" content="ciência,história,biologia,fisica,historia,filosofia,biologia" />
+	<meta name="author" content="Felipe Konig,Ramon Becker" />
+	<meta name="robots" content="index,follow" />
 
+	<title>Biologia</title>
+	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="css\style.css">
-
-	<title>Biologia</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<header class="row" >
 			<div class="col-4 bg-dark text-white" style="text-align: center;" >		Av. Expedicionários</div>
-			<div class="col-4 bg-dark text-white" style="text-align: center;" >		Canoinhas-Santa Catarina</div>
+			<div class="col-4 bg-dark text-white" id="cidade" style="text-align: center;" >		Canoinhas-Santa Catarina</div>
 			<div class="col-4 bg-dark text-white" style="text-align: center;" >		(47)99949-7824</div>
 
 	</header>
-	<nav class="col-md-12 p-3 bg-success text-white">
+	<nav class="col-md-12 p-3 bg-dark text-white">
 		<img src="img/logo2.png" class="col-md mx-auto " style="width: 80px;" alt=" ">
-		<a id="titulo">Algum nome para o site</a>
+		<a id="titulo">Revista Científica</a>
 
 		<a id="firstLinkNav" href="historia.html" target="_self" > História</a>
 		<a class="linksNav" href="tecnologias.html" target="_self" > Tecnologias</a>
@@ -31,130 +36,83 @@
 		<a class="linksNav" href="biologia.html" target="_self" > Biologia</a>
 		<a class="linksNav" href="bizarro.html" target="_self" >Bizarro</a>
 	</nav>
-<!-- 	<article>
-		<h3>Biologia</h3>
-			<ul>
-				<li>
-					<h2>Conteúdos</h2>
-					<ul>
-						<li>“Bactéria de Schrödinger” pode ser um marco na biologia quântica</li>
-						<li>Em apenas três dias, Inteligência Artificial resolve um mistério da biologia</li>
-						<li>As supernovas que podem ter mudado a biologia da Terra com radiação</li>
-						<li>Concepção imaculada: este peixe rescreverá os livros de biologia</li>
-						<li>A “biologia quântica” está desvendando os mistérios do mais importante processo bioquímico do planeta?</li>
-					</ul>
-				</li>
-			</ul>
+
 	<br>
+
+
+	<h1 style="margin-left: 43%;">Biologia</h1>
+	<p class="subTituloPagina" >Ciência que estuda a vida e os organismos vivos, sua estrutura, crescimento, funcionamento, reprodução, origem, evolução, distribuição, bem como suas relações com o ambiente e entre si.</p>
+
+	<div class="dropdown" style="margin-left: 23%;">
+	  <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+	    Selecione uma notícia!
+	  </button>
+	  <div class="dropdown-menu">
+	    <a class="dropdown-item" href="biologiaNoticia.html">Bactéria de Schrödinger pode ser um marco na biologia quântica</a>
+	    <a class="dropdown-item" href="#">A “biologia quântica” está desvendando os mistérios do mais importante processo bioquímico do planeta?</a>
+	    <a class="dropdown-item" href="#">Concepção imaculada: este peixe rescreverá os livros de biologia</a>
+	    <a class="dropdown-item" href="#">As supernovas que podem ter mudado a biologia da Terra com radiação</a>
+	    <a class="dropdown-item" href="#">Em apenas três dias, Inteligência Artificial resolve um mistério da biologia</a>
+	  </div>
+	</div>
 	<br>
-	</article> -->
-	<br>
-	<br>
-	<aside class="col-md-2 bg-success float-sm-left">
-		<h3 class="text-white" style="padding-top: 10px">Biologia</h3>
-		<nav class="navbar">
 
-		  <!-- Links -->
-		  <ul class="navbar-nav">
-		    <li class="nav-item">
-		      <a class="linksNavLat" href="#">“Bactéria de Schrödinger” pode ser um marco na biologia quântica</a>
-		    </li>
-		    <li class="nav-item">
-		      <a class="linksNavLat" href="#">Em apenas três dias, Inteligência Artificial resolve um mistério da biologia</a>
-		    </li>
-		    <li class="nav-item">
-		      <a class="linksNavLat" href="#">As supernovas que podem ter mudado a biologia da Terra com radiação</a>
-		    </li>
-		    <li class="nav-item">
-		      <a class="linksNavLat" href="#">Concepção imaculada: este peixe rescreverá os livros de biologia</a>
-		    </li>
-		  	<li class="nav-item">
-		      <a class="linksNavLat" href="#">A “biologia quântica” está desvendando os mistérios do mais importante processo bioquímico do planeta?</a>
-		    </li>
-		  </ul>
+	<article class="row" style=" background-color: #ded9d9;">
 
-		</nav>
-	</aside>
-<!-- 
-	<aside style="float: right;">
-		<h3>
-			<mark>Propaganda da HyperScience</mark>
-		</h3>
-		<a href="https://hypescience.com" target="_blank">
-			<img src="img/hc.png" alt="Nessa imagem nós vemos um buraco negro com as cores vermelha oa redor, amarelo entre o núcleo e a borda e azul no núcleo, no espaço, com a logo HyperScience no centro com o Hyper em verde e o science em azul com uma logo do planeta Terra ao lado ">
-		</a>
-	</aside> -->
-		<section>
-			<h2>“Bactéria de Schrödinger” pode ser um marco na biologia quântica</h2>
-			<p class = "text-align: justify;">Uma análise do grupo de pesquisa da Universidade de Oxford (Reino Unido) alegou sucesso no entrelaçamento de bactérias com fótons, ou partículas de luz.
-			Eles estudaram um experimento realizado em 2016 por David Coles, da Universidade de Sheffield (Reino Unido), e seus colegas. De acordo com o artigo, a assinatura de energia produzida no experimento pode ser consistente com os sistemas fotossintéticos da bactéria, tornando-se emaranhados com a luz.
+			<div class="col-md-3 card text-center" style="margin-left: 7%;margin-top: 5%;">
+				<img class="card-img-top" src="img/biologiaQuantica.png" alt="Card image">
+				<div class="card-body">
+			    	<h4 class="card-title">Biologia</h4>
+			    	<p class="card-text" >A “biologia quântica” está desvendando os mistérios do mais importante processo bioquímico do planeta?</p>
+      				<a href="#" class="stretched-link"></a>
+			 	</div>
+			</div>
 
-			Em essência, parece que certos fótons estavam simultaneamente atingindo e perdendo moléculas fotossintéticas dentro da bactéria – uma marca registrada do emaranhamento.
-			“Nossos modelos mostram que o fenômeno sendo registrado é uma assinatura do entrelaçamento entre a luz e certos graus de liberdade dentro das bactérias”, disse a física quântica Chiara Marletto, principal autora do artigo, publicado na revista científica Journal of Physics Communications.
-			</p>
-			<br>
-			<h3>Entrelaçamento</h3>
-			<p>
-				 O fenômeno paradoxal conhecido como superposição, em física quântica, postula que uma partícula possa parecer estar em dois lugares ao mesmo tempo e que duas partículas podem se tornar “entrelaçadas”, compartilhando informações através de distâncias arbitrariamente grandes através de um mecanismo desconhecido.
+			<div class="col-md-3 card text-center" style="margin-left: 7%;margin-top: 5%;">
+				<img class="card-img-top" src="img/peixe-serra.png" alt="Card image">
+				<div class="card-body">
+			    	<h4 class="card-title">Biologia</h4>
+			    	<p class="card-text" >Concepção imaculada: este peixe rescreverá os livros de biologia</p>
+      				<a href="#" class="stretched-link"></a>
+			 	</div>
+			</div>
 
-				Por mais distante que pareça, o conceito foi experimentalmente validado inúmeras vezes em escalas quânticas. Já no nosso mundo macroscópico, as coisas são bem diferentes.
-				Ninguém jamais testemunhou uma estrela, um planeta ou um gato em superposição ou um estado de entrelaçamento quântico (o gato de Schrödinger, por exemplo, é um experimento do pensamento, ou seja, teórico).
+			<div class="col-md-3 card text-center" style="margin-left: 7%;margin-top: 5%;">
+				   <img class="card-img-top" src="img/bacteria.png" alt="Card image">
+				 	<div class="card-body">
+					    <h4 class="card-title">Biologia</h4>
+					    <p class="card-text">Bactéria de Schrödinger pode ser um marco na biologia quântica</p>
+					    <a href="biologiaNoticia.html" class="stretched-link"></a>
+					</div>
+			</div>
 
-				Desde a formulação inicial da teoria quântica no início do século 20, os cientistas se perguntam onde exatamente os mundos microscópico e macroscópico podem se cruzam. Quão grande pode ser o reino quântico? Grande o suficiente para seus aspectos mais estranhos influenciarem intimamente os seres vivos?
-			</p>
-			<br>
-			<h3>Biologia quântica</h3>
-			<p>
-				Nas últimas duas décadas, o campo emergente da biologia quântica buscou respostas para essas questões, propondo e realizando experimentos com organismos vivos que pudessem sondar os limites da teoria quântica.
-				Esses experimentos já renderam resultados promissores, mas inconclusivos. No início deste ano, por exemplo, pesquisadores mostraram que o processo de fotossíntese – por meio do qual organismos produzem alimentos usando luz – pode envolver alguns efeitos quânticos. A forma como os pássaros navegam ou como nós cheiramos também sugerem efeitos quânticos que podem ocorrer de maneiras incomuns nos seres vivos.
 
-				Até agora, contudo, ninguém conseguiu persuadir todo um organismo vivo – nem mesmo uma bactéria unicelular – a exibir efeitos quânticos como emaranhamento ou superposição.
-			</p>
-			<p>
-				No experimento citado no novo artigo, Coles e seus colegas prenderam centenas de bactérias fotossintéticas entre dois espelhos, encolhendo progressivamente a distância entre os espelhos até algumas centenas de nanômetros – menos do que a largura de um cabelo humano.
+			<div class="col-md-3 card text-center" style="margin-left: 24%;margin-top: 5%;margin-bottom: 2%">
+				 	<div class="card-body">
+					    <h4 class="card-title">Biologia</h4>
+					    <p class="card-text">Em apenas três dias, Inteligência Artificial resolve um mistério da biologia</p>
+					    <a href="#" class="stretched-link"></a>
+					    <img class="card-img-bottom" src="img/inteligencia-artificial-platelmintos.png" alt="Card image">
+					</div>
+			</div>
 
-				Salientando a luz branca entre os espelhos, os pesquisadores esperavam fazer com que as moléculas fotossintéticas dentro das bactérias se unissem – ou interagissem – com a cavidade, essencialmente significando que absorveriam, emitiriam e reabsorveriam continuamente os fótons saltitantes. O experimento foi bem-sucedido; até seis bactérias pareceram fazer isso.
-			</p>
-			<br>
-			<h3>Entrando no mundo quântico</h3>
-			<p>
-				No recente artigo, Marletto e seus colegas argumentam que as bactérias se tornaram “emaranhadas” com a luz dentro da cavidade.
-				Em essência, parece que certos fótons estavam simultaneamente atingindo e perdendo moléculas fotossintéticas dentro da bactéria – uma marca registrada do emaranhamento.
-			</p>
-			<p>
-				De acordo com outro autor do estudo, Tristan Farrow, também da Universidade de Oxford, esta é a primeira vez que tal efeito foi vislumbrado em um organismo vivo. “Certamente é fundamental para demonstrar que estamos no caminho para uma ideia de uma ‘bactéria de Schrödinger’”, afirmou.
-			</p>
-			<p>
-				Como as bactérias utilizadas no estudo residem no oceano profundo, onde há escassez de luz, isso pode até mesmo estimular adaptações evolutivas da mecânica quântica para impulsionar a fotossíntese.
-			</p>
-			<br>
-			<h3>Ressalvas</h3>
-			<p>
-				Há muitas ressalvas nas afirmações feitas pelo grupo de Oxford. Em primeiro lugar, a evidência para o emaranhamento neste experimento é circunstancial, ou seja, depende de como se escolhe interpretar a luz na cavidade.
-
-				Marletto e seus colegas reconhecem que um modelo clássico livre de efeitos quânticos também poderia explicar os resultados do experimento. Mas, é claro, os fótons não são clássicos – são quânticos.
-			</p>
-			<p>
-				Além disso, um modelo “semiclássico” mais realista, usando as leis de Newton para as bactérias e as quânticas para fótons, não pode reproduzir o resultado real que Coles e seus colegas observaram. Isso sugere que efeitos quânticos estavam em jogo tanto na luz quanto nas bactérias.
-			</p>
-			<p>
-				Por fim, as energias das bactérias e do fóton foram medidas coletivamente, não de forma independente. Isso, de acordo com Simon Gröblacher, da Universidade de Tecnologia de Delft, na Holanda, que não fez parte desta pesquisa, é uma limitação. “Parece haver algo quântico acontecendo. Mas, geralmente, para demonstrar emaranhamento, você tem que medir os dois sistemas independentemente para confirmar que qualquer correlação quântica entre eles é genuína”.
-			</p>
-			<br>
-			<h3>Próximos passos</h3>
-			<p>
-				Apesar das incertezas, para alguns cientistas, a transição da biologia quântica teórica para a prática é uma questão de quando, e não se.
-
-				Vários grupos de pesquisa, incluindo os liderados por Gröblacher e Farrow, esperam levar essas ideias ainda mais longe. Gröblacher projetou um experimento que poderia colocar um pequeno animal aquático chamado de tardígrado em superposição. Farrow quer melhorar o experimento bacteriano.
-			</p>
-			<p>
-				“Os objetivos de longo prazo são fundamentais. Trata-se de entender a natureza da realidade e se os efeitos quânticos têm utilidade nas funções biológicas. Na raiz das coisas, tudo é quântico”, concluiu Farrow. 
-			</p>
-		</section>
-		<footer class="row" style="padding-top: 50px">
+			<div class="col-md-3 card text-center" style="margin-left: 7%; margin-top: 5%;margin-bottom: 2%">
+				 	<div class="card-body">
+					    <h4 class="card-title">Biologia</h4>
+					    <p class="card-text">As supernovas que podem ter mudado a biologia da Terra com radiação</p>
+					    <a href="#" class="stretched-link"></a>
+					    <img class="card-img-bottom" src="img/supernova.png" alt="Card image">
+					</div>
+			</div>
+		</article>
+		
+		<footer class="row" style="margin-top: 50px">
 			<div class="col-4 bg-dark text-white" style="text-align: center;" >	nomeRevista</div>
 			<div class="col-4 bg-dark text-white" style="text-align: center;" >	Facebook: nomeRevista</div>
 			<div class="col-4 bg-dark text-white" style="text-align: center;" >	Twitter: nomeRevista</div>
 		</footer>
+
+
+
 </body>
 </html>
