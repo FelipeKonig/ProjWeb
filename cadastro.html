@@ -12,6 +12,13 @@
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+		<script>
+			$(document).ready(function(){
+			  $('.toast').toast('show');
+			});
+		</script>
+
 	</head>
 	<body>
 	  <header class="topbar bg-dark">
@@ -65,8 +72,22 @@
 			</ul>
 		</div>
 	</nav>
+		<br>
+
+		<div class="toast" data-autohide="false" style="margin-left: 36%">
+		    <div class="toast-header">
+		      <strong class="mr-auto text-primary">Aviso!</strong>
+		      <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
+		    </div>
+		    <div class="toast-body">
+		      Ao realizar seu cadastro, seu CPF será usado por outros.
+		    </div>
+		  </div>
+		</div>
+
 		<div class="container">
 		  <h2 >Cadastro</h2>
+
 		  <form class="was-validated">
 		    <div class="form-group">
 		      <label for="uname">Nome completo:</label>
@@ -131,11 +152,11 @@
 		        <div class="invalid-feedback">Aceite os termos para continuar</div>
 		    </div>
 		    <button type="submit" class="btn btn-secondary">Cadastrar</button>
-		    <a role="button" href="home.html" class="btn btn-secondary" style="margin-left: 5%;">Voltar para a Home</a>
+		    <a role="button" href="home.html"  class="btn btn-secondary" style="margin-left: 5%;">Voltar para a Home</a>
 		  </form>
 		</div>
 		<br>
-	   
+
 	   <footer class="section footer-classic context-dark bg-image" style="background: #343a40;">
         <div class="container">
           <div class="row row-30">
