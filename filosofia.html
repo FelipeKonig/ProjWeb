@@ -1,154 +1,176 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang = "pt-br">
 <head>
-	<meta charset="utf-8">
+	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="icon" href="img/icon.ico" />
+
 	<title>Filosofia</title>
-	<link rel="stylesheet" type="text/css" href="css\style.css">
-	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
 </head>
 <body>
-	<header>
-		<pre>		Endereco							Canoinhas-Santa Catarina				nºtelefone
-		</pre>
-	</header>
-	<nav>
-		<a href="historia.html" class="navA1" target="_self"> História</a>
-		<a href="tecnologias.html" class="navA1" target="_self"> Tecnologias</a>
-		<a href="filosofia.html" class="navA1" target="_self"> Filosofia</a>
-		<a href="fisica.html" class="navA1" target="_self" > Física</a>
-		<a href="biologia.html" class="navA1" target="_self" > Biologia</a>
-		<a href="bizarro.html" class="navA1" target="_self" > Bizarro</a>
+<header class="topbar bg-dark">
+	      <div class="container">
+	        <div class="row">
+	          <div class="col-sm-12">
+	          
+	            	<button type="button" class="waves-effect waves-dark btn btn-lg btn-fb" id="face"><i class="fab fa-facebook-f pr-1"></i> Facebook</button>
+	            	<button type="button" class="waves-effect waves-dark btn btn-ins"><i class="fab fa-instagram pr-1"></i> Instagram</button>
+	              <button type="button" class="waves-effect waves-dark btn btn-gplus"><i class="fab fa-google-plus-g pr-1"></i> Google </button>
+
+				  <button type="button" class="waves-effect waves-dark btn btn-tw"><i class="fab fa-twitter pr-1"></i> Twitter</button>
+	     
+	          </div>
+
+	        </div>
+	      </div>
+	  </header>
+   <div style="padding-bottom: 1px;"></div>
+
+	<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+		  <a class="navbar-brand" id="titulo" href="home.html">Revista Científica</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		 <div class="collapse navbar-collapse" id="collapsibleNavbar">
+		 	<ul class="navbar-nav">
+     			<li class="nav-item" style="margin-left: 5%">
+				<a class="linksNav" href="historia.html" target="_self" > História</a>
+				</li>	
+				
+				<li class="nav-item" style="margin-left: 5%">
+					<a class="linksNav" href="tecnologias.html" target="_self" > Tecnologias</a>
+				</li>
+				
+				<li class="nav-item" style="margin-left: 5%">
+				<a class="linksNav" href="filosofia.html" target="_self" > Filosofia</a>
+				</li>
+
+				<li class="nav-item" style="margin-left: 5%">
+				<a class="linksNav" href="fisica.html" target="_self" > Física</a>
+				</li>
+
+				<li class="nav-item" style="margin-left: 5%">
+				<a class="linksNav" href="biologia.html" target="_self" > Biologia</a>
+				</li>
+
+				<li class="nav-item" style="margin-left: 5%;margin-right: 5%;">
+				<a class="linksNav" href="bizarro.html" target="_self" >Bizarro</a>
+				</li>
+			</ul>
+		</div>
 	</nav>
-	<article>
-		<h3>Filosofia</h3>
-		<table>
-			<thead>
-				<tr id="trHead">
-					<th>Assunto</th>
-					<td>Lógica</td>
-					<td>Ontologia</td>
-					<td>Axiologia</td>
-					<td>Epistemologia</td>
-					<td>Metafísica </td>
-					<td>Antropologia</td>
-				</tr>
-			</thead>
-			<tbody>
-				<tr id="trBody">
-					<th>Resumo</th>
-					<td >
-						<p class="txtTabel">
-							A Lógica é a ciência das inferências válidas.
-							Uma inferência é válida quando está em conformidade com os procedimentos que governam o pensamento correcto. O objecto da lógica é, então, o de destrinçar as leis que autorizam esses procedimentos, de os explicar, e de os formular.
-						</p>
-					</td>
-					<td>
-						<p class="txtTabel">
-							Segundo o aristotelismo, parte da filosofia que tem por objeto o estudo das propriedades mais gerais do ser, apartada da infinidade de determinações que, ao qualificá-lo particularmente, ocultam sua natureza plena e integral.
-						</p>
-					</td>
-					<td>
-						<p class="txtTabel">
-							Axiologia, também chamada de teoria de valor, é o estudo filosófico prático que busca entender a natureza dos valores e os juízos de valor e como eles surgem na sociedade.
-							A axiologia está intimamente relacionada a dois outros domínios da filosofia: ética e estética. Todos os três ramos lidam com o valor.
-						</p>
-					</td>
-					<td>
-						<p class="txtTabel">
-							Epistemologia significa ciência, conhecimento, é o estudo científico que trata dos problemas relacionados com a crença e o conhecimento, sua natureza e limitações. É uma palavra que vem do grego.
-						</p>
-					</td>
-					<td>
-						<p class="txtTabel">
-							Metafísica é uma palavra com origem no grego e que significa "o que está para além da física". É uma doutrina que busca o conhecimento da essência das coisas.
-							O termo metafísica foi consagrado por Andrônico de Rodes a partir da ordenação dos livros aristotélicos referidos à ciência dos primeiros princípios e primeiras causas do ser.
-						</p>
-					</td>
-					<td>
-						<p class="txtTabel">
-							Antropologia é uma ciência que se dedica ao estudo aprofundado do ser humano. É um termo de origem grega, formado por “anthropos” (homem, ser humano) e “logos” (conhecimento).
-							A reflexão sobre as sociedades, o homem e o seu comportamento social é conhecida desde a Antiguidade Clássica pelo pensamento de grandes filósofos. Em destaque há o grego Heródoto, considerado o pai da História e da Antropologia.
-						</p>
-					</td>
-				</tr>
-			</tbody>
-			<tfoot>
-				<tr  id="trFoot">
-					<th>Conteúdos</th>
-					<td>Algumas considerações sobre lógica-Amauri Paulo Cervo</td>
-					<td>Uma abordagem integrada sobre ontologias:Ciência da Computação e Filosofia</td>
-					<td>Axiologia: apontamentos sobre o valor</td>
-					<td>A Epistemologia-Educadores</td>
-					<td>A metafísica e o processo de objetificação-PePSIC</td>
-					<td>conceituando a antropologia-Revista Antropos</td>
-				</tr>
-			</tfoot>
-		</table>
-	</article>
-	<section >
-		<h1>Algumas considerações sobre lógica</h1>
-		<h2>Resumo</h2>
-		<p>
-			Este artigo científico objetiva apontar alguns passos do
-			nascimento da lógica na Grécia Antiga destacando a contribuição dos
-			primeiros filósofos entre os quais, Heráclito e Parmênides. Destacando o
-			devir, afirmado pelo primeiro, que tudo muda, que a mudança é o real, e a
-			tese defendida por Parmênides que o real e verdadeiro é o que nunca muda:
-			o ser é, o não ser não é. Destaca-se também a contribuição de Platão com a
-			episteme princípio que faz e dá presença ao real, critério primeiro para a
-			lógica para a racionalidade. E Aristóteles com „logos‟ cujo objetivo era
-			mostrar um caminho correto para a construção do conhecimento e
-			demonstração científica. Também se estudou a contribuição no período
-			medieval em especial com o florescimento da escolástica de alguns das
-			mais importantes e brilhantes filósofos, que contribuíram com o
-			desenvolvimento da lógica aristotélica, entre os quais Abelardo, Tomás de
-			Aquino e Guilherme de Ockham. Trabalhou-se com a divisão da lógica em
-			lógica maior chamada também de lógica material que determina as leis
-			particulares e regras especiais e a lógica menor ou formal que estabelece as
-			condições de conformidade do pensamento trabalhando com as definições
-			de apreensão e o termo, compreensão e extensão, juízo e proposição,
-			raciocínio e argumento. Destacou-se também a argumentação dedutiva ou
-			silogismo, o silogismo jurídico e a argumentação indutiva.
-			Palavras-chave: Logos; Lógica Maior ou material; Lógica Menor ou
-			formal; Argumentação Dedutiva ou silogismo, Argumentação Indutiva.
-		</p>
-		<h2>Introdução</h2>
-		<p>
-			É fascinante desvendar o conhecimento que as antigas civilizações detinham e
-			conseguiram deixar como contribuição para a existência do ser humano. E nisto a
-			contribuição do mundo grego é uma marca indelével para a humanidade no que se
-			refere à Filosofia e inserida nela a Lógica. São diversos os subsídios e os atores entre os
-			quais Heráclito, Parmênides, Sócrates, Platão e Aristóteles.
-			Na idade média, importantes intelectuais contribuíram para o aperfeiçoamento
-			da lógica aristotélica, destacando-se Abelardo, Tomas de Aquino, e Guilherme de Ockhan
-			. A lógica foi considerada “ciência de todas as ciências” e foi valorizando a
-			dedução em detrimento da indução.
-			Trabalhou-se como formalmente a lógica está agrupada em duas grandes
-			divisões, ou seja, a lógica formal ou lógica menor e a logica material ou maior.
-			Na lógica material ou maior se estuda, de forma mais consistente, as condições
-			de certeza, a verdade e o erro, os sofismas, o critério de certeza, a noção de ciência, o
-			método em geral, os diferentes métodos, que não foi neste primeiro momento objeto de
-			estudo.
-			Dentro da lógica formal ou menor, que compreende três partes, ou seja,
-			apreensão e do termo, do juízo e da proposição, e do raciocínio e da argumentação.
-			Verificou-se os conceitos, a forma dos juízos e raciocínios se corretos e coerentes.
-			Na argumentação foi dada ênfase à dedutiva ou silogismo e também em rápidas
-			pinceladas a argumentação indutiva.
-		</p>
-	</section>
-	<aside>
-			<h3>
-				<i>Joguem PES 2019</i>
-			</h3>
-			<a href="https://www.konami.com/wepes/2019/us/pt-br/" target="_blank">
-				<img src="img/pes.png" alt="Ao lado direito da imagem está Phelippe Coutinho comemorando um gol, com uma arquibancada lotada no fundo e a logo 'PES2019' com pes em vermelho e 2019 em vermelho, logo abaixo do 'PES2019' esta escrito 'PRO EVOLUTION SOCCER 2019' em branco ">
-			</a>
-		</aside>
-		<footer>
-		<pre> nomeRevista					Facebook: nomeRevista			Twitter: nomeRevista</pre>
-	</footer>
-</body>
+	<br>
+	<br>
+
+	<h1 style="margin-left: 43%;">Filosofia</h1>
+	<p class="subTituloPagina" >Amor pela sabedoria, experimentado apenas pelo ser humano consciente de sua própria ignorância [Segundo autores clássicos, sentido original do termo, atribuído ao filósofo grego Pitágoras (sVI a.C.).].</p>
+
+	<div class="dropdown" style="margin-left: 23%;">
+	  <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+	    Selecione uma notícia!
+	  </button>
+	  <div class="dropdown-menu">
+	    <a class="dropdown-item" href="filosofiaNoticia.html">Como a atividade dos neurônios produz essa sensação única de estar vivo e consciente?</a>
+	    <a class="dropdown-item" href="#">“Filosofia não faz perguntas para encontrar respostas, mas sim para questionar as já estabelecidas”</a>
+	    <a class="dropdown-item" href="#">O feminismo que nasceu com Simone de Beauvoir</a>
+	    <a class="dropdown-item" href="#">“Filosofia não faz perguntas para encontrar respostas, mas sim para questionar as já estabelecidas”</a>
+	    <a class="dropdown-item" href="#">Morre Agnes Heller, a filósofa da vida cotidiana que sobreviveu ao Holocausto</a>
+	  </div>
+	</div>
+	<br>
+
+	<article class="row" style=" background-color: #ded9d9;">
+
+			<div class="col-md-3 card text-center" style="margin-left: 7%;margin-top: 5%;">
+				<img class="card-img-top" src="img/agnesHeller.png" alt="Card image">
+				<div class="card-body">
+			    	<h4 class="card-title">Filosofia</h4>
+			    	<p class="card-text" >Morre Agnes Heller, a filósofa da vida cotidiana que sobreviveu ao Holocausto</p>
+      				<a href="#" class="stretched-link"></a>
+			 	</div>
+			</div>
+
+			<div class="col-md-3 card text-center" style="margin-left: 7%;margin-top: 5%;">
+				<img class="card-img-top" src="img/Consciencia.png" alt="Card image">
+				<div class="card-body">
+			    	<h4 class="card-title">Filosofia</h4>
+			    	<p class="card-text" >Como a atividade dos neurônios produz essa sensação única de estar vivo e consciente?</p>
+      				<a href="filosofiaNoticia.html" class="stretched-link"></a>
+			 	</div>
+			</div>
+
+			<div class="col-md-3 card text-center" style="margin-left: 7%;margin-top: 5%;">
+				   <img class="card-img-top" src="img/simoneDeBeau.png" alt="Card image">
+				 	<div class="card-body">
+					    <h4 class="card-title">Filosofia</h4>
+					    <p class="card-text">O feminismo que nasceu com Simone de Beauvoir</p>
+					    <a href="#" class="stretched-link"></a>
+					</div>
+			</div>
+
+
+			<div class="col-md-3 card text-center" style="margin-left: 24%;margin-top: 5%;margin-bottom: 2%">
+				 	<div class="card-body">
+					    <h4 class="card-title">Filosofia</h4>
+					    <p class="card-text">Como mudar o sistema educativo para transformar o mundo</p>
+					    <a href="#" class="stretched-link"></a>
+					    <img class="card-img-bottom" src="img/sistemaEducativo.png" alt="Card image">
+					</div>
+			</div>
+
+			<div class="col-md-3 card text-center" style="margin-left: 7%; margin-top: 5%;margin-bottom: 2%">
+				 	<div class="card-body">
+					    <h4 class="card-title">Filosofia</h4>
+					    <p class="card-text">Peter Sloterdijk: “A vida atual não convida a pensar”</p>
+					    <a href="#" class="stretched-link"></a>
+					    <img class="card-img-bottom" src="img/darioSztajn.png" alt="Card image">
+					</div>
+			</div>
+		</article>
+		
+	   <footer class="section footer-classic context-dark bg-image" style="background: #343a40;">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-md-4 col-xl-5">
+              <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="images/agency/logo-inverse-140x37.png" alt="" width="140" height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
+                <p>Somos divulgadores de conteúdos de ciência, dedicados ao melhor resultado em web para pesquisas acadêmicas.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h5>Contatos</h5>
+              <dl class="contact-list">
+                <dt>Endereço:</dt>
+                <dd>666 Avenida Expedicionários, Campo da Água Verde, Canoinhas, SC</dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>E-mail:</dt>
+                <dd><a href="mailto:#">suporterevista@gmail.com</a></dd>
+              </dl>
+            </div>
+            <div class="col-md-4 col-xl-3">
+              <h5>Links</h5>
+              <ul class="nav-list">
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Contatos</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row no-gutters social-container">
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+        </div>
+      </footer>
+	</body>
 </html>

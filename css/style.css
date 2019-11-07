@@ -1,103 +1,347 @@
+	#firstLinkNav{
+		color: white; 
+		margin-left: 20%;
+	}
+
+	.linksNav{	
+		color: white;
+		margin-left: 1%;
+	}
+
+	.linkGuia{
+		margin-left: 30%;
+	}
+
+	#titulo{
+		font-size: 250%;
+	}
+
+	.nav-item{
+		margin-top: 10px;
+	}
+
+	.textoLink{
+		color: #fc6a0f;
+	}
+
+	.topbar .container .row {
+  margin:-7px;
+  padding:0;
+}
+
+.topbar .container .row .col-md-12 { 
+  padding:0;
+}
+
+.topbar p{
+  margin:0;
+  display:inline-block;
+  font-size: 13px;
+  color: #f1f6ff;
+}
+
+.topbar p > i{
+  margin-right:5px;
+}
+.topbar p:last-child{
+  text-align:right;
+} 
+
+header .navbar {
+    margin-bottom: 0;
+}
+
+.topbar li.topbar {
+    display: inline;
+    padding-right: 18px;
+    line-height: 52px;
+    transition: all .3s linear;
+}
+
+.topbar li.topbar:hover {
+    color: #1bbde8;
+}
+
+.topbar ul.info i {
+    color: #131313;
+    font-style: normal;
+    margin-right: 8px;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+}
+
+.topbar ul.info li {
+    float: right;
+    padding-left: 30px;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 44px;
+}
+
+.topbar ul.info i span {
+    color: #aaa;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 50px;
+    padding-left: 18px;
+}
+	
+ul.social-network {
+  border:none;
+  margin:0;
+  padding:0;
+}
+
+ul.social-network li {
+  border:none;  
+  margin:0;
+}
+
+ul.social-network li i {
+  margin:0;
+}
+
+ul.social-network li {
+    display:inline;
+    margin: 0 5px;
+    border: 0px solid #2D2D2D;
+    padding: 5px 0 0;
+    width: 32px;
+    display: inline-block;
+    text-align: center;
+    height: 32px;
+    vertical-align: baseline;
+    color: #000;
+}
+
+ul.social-network {
+  list-style: none;
+  margin: 5px 0 10px -25px;
+  float: right;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    will-change: opacity, transform;
+    transition: .3s ease-out;
+    color: #fff;
+}
+
+	.context-dark, .bg-gray-dark, .bg-primary {
+	    color: rgba(255, 255, 255, 0.8);
+	}
+
+	.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+	    color: #ffffff;
+	}
+	.nav-list li {
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+	}
+
+	.nav-list li a:hover:before {
+	    margin-left: 0;
+	    opacity: 1;
+	    visibility: visible;
+	}
+
+	ul, ol {
+	    list-style: none;
+	    padding: 0;
+	    margin: 0;
+	}
+	.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: #222;
+	}
+	.social-container .col {
+	    border: 1px solid rgba(255, 255, 255, 0.1);
+	}
+	.nav-list li a:before {
+	    content: "\f14f";
+	    font: 400 21px/1 "Material Design Icons";
+	    color: #4d6de6;
+	    display: inline-block;
+	    vertical-align: baseline;
+	    margin-left: -28px;
+	    margin-right: 7px;
+	    opacity: 0;
+	    visibility: hidden;
+	    transition: .22s ease;
+	}
+
+	.subTituloPagina{
+		font-family: 'Noto Sans', sans-serif;
+		text-indent: 25px;
+		margin-left: 18%;
+		text-align: center;
+		margin-right: 5%;
+	}
+
+	p{
+		font-family: 'Noto Sans', sans-serif;
+		text-indent: 25px;
+		margin-left: 18%;
+		text-align: justify;
+		margin-right: 5%;
+	}
 
 	h1,h2,h3 {
 		font-family: 'Oswald', sans-serif;
 	}
 
-	h3{
+	h2{
+		margin-left: 18%;
+		padding-top: 10px;
 		text-align: center;
+		font-style: oblique;
+		font-weight: bold;
+	}
+
+	h3{
+		margin-left: 18%;
 	}
 
 	li{
 		font-family: 'Mansalva', cursive;
 	}
 
-	p{
-		font-family: 'Noto Sans', sans-serif;
-		text-indent: 25px;
-		text-align: justify;
-	}
-
-	body{
-		background-color: #2EB8EF;
-		position: static;
-	}
-
-	article{
-		float: left;
-		width: 70%;
-	}
-	
-	aside{
-		float: right;
-	}
-	
-	section{
-		float: left;
-		width: 70%;
-	}
-	
-	footer{
-		float: left;
-		padding-top: 7%;
-		font-family: 'Raleway', sans-serif;
-		font-style: italic;
-		}
-
 	header{
-		font-family: 'Raleway', sans-serif;
-		font-style: italic;
+		padding-bottom: 5px;
+		border-bottom-color: white;
+
 	}
 
-	nav{
-		width: 100%;
-		height: 40px;
-		background-color: black;
-	}
-	
-	.navA1{
-		margin: 5%;
-	}
 
-	.navA1:link {
+	.linksNav:link {
 		color: white;
 	}
 
-	.navA1:visited {
-		color: green;
+	.linksNav:visited {
+		color: #c6cf63;
 	}
 
-	.navA1:hover {
-		color: #DBD700;
+	.linksNav:hover {
+		color: #a3e6a5;
 	}
 
-	.navA1:active {
-		color: #9D0577;
+	.linksNav:active {
+		color: #fcba03;
+	}
+
+
+
+	#firstLinkNav:link {
+		color: white;
+	}
+
+	#firstLinkNav:visited {
+		color: #c6cf63;
+	}
+
+	#firstLinkNav:hover {
+		color: #a3e6a5;
+	}
+
+	#firstLinkNav:active {
+		color: #fcba03;
+	}
+
+
+
+	.linksNavLat:link {
+		color: white;
+	}
+
+	.linksNavLat:visited {
+		color: black;
+	}
+
+	.linksNavLat:hover {
+		color: #075252;
+	}
+
+	.linksNavLat:active {
+		color: #16421c;
+	}
+
+
+
+	.linkGuia:link {
+		color: #4a0c07;
+	}
+
+	.linkGuia:visited {
+		color: #eb4034;
+	}
+
+	.linkGuia:hover {
+		color: #854c48;
+	}
+
+	.linkGuia:active {
+		color: black;
+	}
+
+
+
+	.linkGuia2:link {
+		color: #4a0c07;
+	}
+
+	.linkGuia2:visited {
+		color: #eb4034;
+	}
+
+	.linkGuia2:hover {
+		color: #854c48;
+	}
+
+	.linkGuia2:active {
+		color: black;
+	}
+
+	.dropdown-item:hover{
+		color: red;
+	}
+
+	.dropdown-item:active{
+		color: black;
 	}
 
 	table, th, td {
-		border: solid 1px black;
-		border-collapse: collapse;
-		padding: 10px;
-		}
+	border: solid 1px black;
+	border-collapse: collapse;
+	padding: 10px;
+	}
 
-		th {
-			text-align: center;
-		}
+	#tbody{
+		text-align: center;
+	}
 
-		#trHead:nth-child(odd) {
-    		background: white;
-		}
+	#ConteudoFilo{
+		text-align: center;
+		font-style: oblique;
+	}
 
-		#trBody:nth-child(odd) {
-    		background: #ccc;
-		}
-
-		#trFoot:nth-child(odd) {
-    		background: white;
-		}
-
-		.txtTabel {
-			width: 180px;
-			height: 200px;
-  			overflow-y: auto;
-		}
+	#carouselTecnologia{
+		margin-left: 17.5%;
+		max-width: 1100px;
+	}

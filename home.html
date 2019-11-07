@@ -9,73 +9,190 @@
 	<meta name="author" content="Felipe Konig,Ramon Becker" />
 	<meta name="robots" content="index,follow" />
 	<title>Home</title>
-	<link rel="stylesheet" type="text/css" href="css\styleHome.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	  $('.toast').toast('show');
+	});
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
 </head>
 <body>
-	<header>
-		<pre>		Endereco							Canoinhas-Santa Catarina				nºtelefone
-		</pre>
-	</header>
-	<nav>
-		<a href="historia.html" class="navA1" target="_self"> História</a>
-		<a href="tecnologias.html" class="navA1" target="_self"> Tecnologias</a>
-		<a href="filosofia.html" class="navA1" target="_self"> Filosofia</a>
-		<a href="fisica.html" class="navA1" target="_self" > Física</a>
-		<a href="biologia.html" class="navA1" target="_self" > Biologia</a>
-		<a href="bizarro.html" class="navA1" target="_self" >Bizarro</a>
-	</nav>
-		<section >
-			<div>
-				<h3>Conta</h3>
-				<fieldset>
-					<legend>Entrar</legend>
-					 Usuario: 
-					<br>
-					<input type="text" name="Usuario">
-					<br>
-					 Senha: 
-					<br>
-					<input type="password" name="Senha">
-					<br>
-					<br>
-					<input type="submit" value="Entrar" id="input1" >
-					<input type="submit" value="Nao sei minha senha" id="input2">
-					<br>
-					 Não tem conta?
-					 <a href="cadastro.html" target="_self">Cadastre-se</a>
-				</fieldset>
+	  <header class="topbar bg-dark">
+	      <div class="container">
+	        <div class="row">
+	          <div class="col-sm-12">
+	          
+	            	<button type="button" class="waves-effect waves-dark btn btn-lg btn-fb"><i class="fab fa-facebook-f pr-1"></i> Facebook</button>
+	            	<button type="button" class="waves-effect waves-dark btn btn-ins"><i class="fab fa-instagram pr-1"></i> Instagram</button>
+	              <button type="button" class="waves-effect waves-dark btn btn-gplus"><i class="fab fa-google-plus-g pr-1"></i> Google </button>
+
+				  <button type="button" class="waves-effect waves-dark btn btn-tw"><i class="fab fa-twitter pr-1"></i> Twitter</button>
+	     
+	          </div>
+
+	        </div>
+	      </div>
+	  </header>
+	  <div style="padding-bottom: 1px;"></div>
+
+	<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+		  <a class="navbar-brand" id="titulo" href="home.html">Revista Científica</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		 <div class="collapse navbar-collapse" id="collapsibleNavbar">
+		 	<ul class="navbar-nav">
+     			<li class="nav-item" style="margin-left: 5%">
+				<a class="linksNav" href="historia.html" target="_self" > História</a>
+				</li>	
+				
+				<li class="nav-item" style="margin-left: 5%">
+					<a class="linksNav" href="tecnologias.html" target="_self" > Tecnologias</a>
+				</li>
+				
+				<li class="nav-item" style="margin-left: 5%">
+				<a class="linksNav" href="filosofia.html" target="_self" > Filosofia</a>
+				</li>
+
+				<li class="nav-item" style="margin-left: 5%">
+				<a class="linksNav" href="fisica.html" target="_self" > Física</a>
+				</li>
+
+				<li class="nav-item" style="margin-left: 5%">
+				<a class="linksNav" href="biologia.html" target="_self" > Biologia</a>
+				</li>
+
+				<li class="nav-item" style="margin-left: 5%;margin-right: 5%;">
+				<a class="linksNav" href="bizarro.html" target="_self" >Bizarro</a>
+				</li>
+			</ul>
 		</div>
-		</section>
-		<aside>
-			<br>
-			<br>
-			<h3>
-				<mark>Propaganda do Facebook</mark>
-			</h3>
-			<a href="https://pt-br.facebook.com/" target="_blank">
-				<img src="img/fb.png" alt="Imagem propaganda do facebook para complemento de Aside do página">
-			</a>
-		</aside>
-		<article>
-			<div>
-				<br>
-				<br>
-				<h2 id="h2Div" >O que é uma revista científica?</h2>
-				<p id="pDiv">
-					No campo das publicações acadêmicas, uma revista científica é uma publicação periódica destinada a promover o progresso da ciência, geralmente noticiando novas pesquisas. A maioria das revistas são altamente especializadas, embora algumas das publicações mais antigas tais como Nature publiquem artigos e dissertações científicas abrangendo uma vasta gama de campos científicos. Revistas científicas contém artigos que foram submetidos a revisão por pares, numa tentativa de assegurar que estes artigos vão ao encontro dos padrões de qualidade e validade científica da publicação. Embora revistas científicas sejam superficialmente similares a revistas profissionais, na verdade elas são bem diferentes destas. Edições de uma revista científica raramente são lidas casualmente, como se lê uma revista qualquer. A publicação dos resultados de pesquisa é parte essencial do método científico; eles geralmente devem suprir detalhes suficientes sobre um experimento, para que um pesquisador independente possa repetir o processo e verificar os resultados. Cada artigo da revista se torna parte de um registro científico permanente.
+	</nav>
+	<br>
 
-					A história das revistas científicas começa em 1665, quando o francês Journal des Savants e o inglês Philosophical Transactions of the Royal Society começaram a publicar sistematicamente resultados de pesquisas científicas. Mais de mil publicações, a maioria de existência efêmera, foram fundadas no século XVIII, e o número aumentou rapidamente depois disso.
-
-					Nas revistas acadêmicas se sedimentam práticas, que acabam por refletir a forma como se dá a autoria dos artigos, a regionalização, as relações de gênero etc.
-				</p>
-				<h3 id="h3Div">Fonte:
-					<a href="https://pt.wikipedia.org/wiki/Revista_cient%C3%ADfica" target="_blank">Wikipédia</a>
-				</h3>
+	<article class="row" style=" background-color: #ded9d9;">
+			<div class="col-md-3 card text-center" style="margin-top: 5%;margin-left: 3%">
+				<div class="container">
+				  <h2>Entrar </h2>
+				  <form >
+				    <div class="form-group">
+				      <label for="email">Email:</label>
+				      <input type="email" class="form-control" id="email" placeholder="Seu e-mail" name="email">
+				    </div>
+				    <div class="form-group">
+				      <label for="pwd">Senha:</label>
+				      <input type="password" class="form-control" id="pwd" placeholder="Sua senha" name="pswd">
+				    </div>
+				    <div class="form-group form-check">
+				      <label class="form-check-label">
+				        <input class="form-check-input" type="checkbox" name="remember"> Lembrar-me
+				      </label>
+				    </div>
+				    <button type="submit" class="btn btn-secondary">Entrar</button>
+				    <br>
+				    <a role="button" href="cadastro.html" class="btn btn-secondary" style="margin-top: 5%">Cadastrar</a>
+				  </form>
+				</div>
 			</div>
-		</article>
 
-	<footer>
-		<pre> nomeRevista					Facebook: nomeRevista			Twitter: nomeRevista</pre>
-	</footer>
-</body>
+			<div class="col-md-3 card text-center" style="margin-left: 7%;margin-top: 5%;">
+				<img class="card-img-top" src="img/consciencia.png" alt="Card image">
+				<div class="card-body">
+			    	<h4 class="card-title">Filosofia</h4>
+			    	<p class="card-text" >Como a atividade dos neurônios produz essa sensação única de estar vivo e consciente?</p>
+      				<a href="filosofiaNoticia.html" class="stretched-link"></a>
+			 	</div>
+			</div>
+
+			<div class="col-md-3 card text-center" style="margin-left: 7%;margin-top: 5%;">
+				   <img class="card-img-top" src="img/bacteria.png" alt="Card image">
+				 	<div class="card-body">
+					    <h4 class="card-title">Biologia</h4>
+					    <p class="card-text">Bactéria de Schrödinger pode ser um marco na biologia quântica</p>
+					    <a href="biologiaNoticia.html" class="stretched-link"></a>
+					</div>
+			</div>
+
+
+			<div class="col-md-2 card text-center" style="margin-left: 3%;margin-top: 5%;margin-bottom: 2%">
+				   <img class="card-img-top" src="img/buracoMinhoca.png" alt="Card image">
+				 	<div class="card-body">
+					    <h4 class="card-title">Bizarro</h4>
+					    <p class="card-text">Físicos divulgam o passo-a-passo de como criar um buraco de minhoca espacial com instruções</p>
+					    <a href="bizarroNoticia.html" class="stretched-link"></a>
+					</div>
+			</div>
+
+			<div class="col-md-3 card text-center" style="margin-left: 1%; margin-top: 5%;margin-bottom: 2%">
+				   <img class="card-img-top" src="img/newton-einstein-gravidade.png" alt="Card image">
+				 	<div class="card-body">
+					    <h4 class="card-title">Física</h4>
+					    <p class="card-text">Newton está errado e Einstein é o próximo, diz astrofísica</p>
+					    <a href="fisicaNoticia2.html" class="stretched-link"></a>
+					</div>
+			</div>
+
+
+			<div class="col-md-3 card text-center" style="margin-left: 1%; margin-top: 5%;margin-bottom: 2%">
+				   <img class="card-img-top" src="img/versao-oculta-pintura.png" alt="Card image">
+				 	<div class="card-body">
+					    <h4 class="card-title">História</h4>
+					    <p class="card-text">Pintura oculta sob obra-prima de da Vinci é revelada</p>
+					    <a href="historiaNoticia1.html" class="stretched-link"></a>
+					</div>
+			</div>
+
+			<div class="col-md-3 card text-center" style="margin-left: 1%; margin-top: 5%;margin-bottom: 2%">
+				   <img class="card-img-top" src="img/winux.png" alt="Card image">
+				 	<div class="card-body">
+					    <h4 class="card-title">Tecnologia</h4>
+					    <p class="card-text">A webcam que faz o livestreaming mais antigo do mundo vai ser desligada</p>
+					    <a href="tecnologiaNoticia1.html" class="stretched-link"></a>
+					</div>
+			</div>
+			  
+		</article>
+	   <footer class="section footer-classic context-dark bg-image" style="background: #343a40;">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-md-4 col-xl-5">
+              <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="images/agency/logo-inverse-140x37.png" alt="" width="140" height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
+                <p>Somos divulgadores de conteúdos de ciência, dedicados ao melhor resultado em web para pesquisas acadêmicas.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h5>Contatos</h5>
+              <dl class="contact-list">
+                <dt>Endereço:</dt>
+                <dd>666 Avenida Expedicionários, Campo da Água Verde, Canoinhas, SC</dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>E-mail:</dt>
+                <dd><a href="mailto:#">suporterevista@gmail.com</a></dd>
+              </dl>
+            </div>
+            <div class="col-md-4 col-xl-3">
+              <h5>Links</h5>
+              <ul class="nav-list">
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Contatos</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row no-gutters social-container">
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+        </div>
+      </footer>
+	</body>
 </html>
