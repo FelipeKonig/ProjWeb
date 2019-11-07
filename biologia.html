@@ -14,6 +14,27 @@
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+   <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Notícia excluída</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <div class="modal-body">
+          Está notícia não está mais disponível
+        </div>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
 </head>
 <body>
 	  <header class="topbar bg-dark">
@@ -70,7 +91,6 @@
 
 	<br>
 
-
 	<h1 style="margin-left: 43%;">Biologia</h1>
 	<p class="subTituloPagina" >Ciência que estuda a vida e os organismos vivos, sua estrutura, crescimento, funcionamento, reprodução, origem, evolução, distribuição, bem como suas relações com o ambiente e entre si.</p>
 
@@ -80,10 +100,10 @@
 	  </button>
 	  <div class="dropdown-menu">
 	    <a class="dropdown-item" href="biologiaNoticia.html">Bactéria de Schrödinger pode ser um marco na biologia quântica</a>
-	    <a class="dropdown-item" href="#">A “biologia quântica” está desvendando os mistérios do mais importante processo bioquímico do planeta?</a>
-	    <a class="dropdown-item" href="#">Concepção imaculada: este peixe rescreverá os livros de biologia</a>
-	    <a class="dropdown-item" href="#">As supernovas que podem ter mudado a biologia da Terra com radiação</a>
-	    <a class="dropdown-item" href="#">Em apenas três dias, Inteligência Artificial resolve um mistério da biologia</a>
+	    <a class="dropdown-item" href="#" data-target="#myModal" data-toggle="modal">A “biologia quântica” está desvendando os mistérios do mais importante processo bioquímico do planeta?</a>
+	    <a class="dropdown-item" href="#" data-target="#myModal" data-toggle="modal">Concepção imaculada: este peixe rescreverá os livros de biologia</a>
+	    <a class="dropdown-item" href="#" data-target="#myModal" data-toggle="modal">As supernovas que podem ter mudado a biologia da Terra com radiação</a>
+	    <a class="dropdown-item" href="#" data-target="#myModal" data-toggle="modal">Em apenas três dias, Inteligência Artificial resolve um mistério da biologia</a>
 	  </div>
 	</div>
 	<br>
@@ -95,7 +115,7 @@
 				<div class="card-body">
 			    	<h4 class="card-title">Biologia</h4>
 			    	<p class="card-text" >A “biologia quântica” está desvendando os mistérios do mais importante processo bioquímico do planeta?</p>
-      				<a href="#" class="stretched-link"></a>
+      				<a href="#" data-target="#myModal" data-toggle="modal" class="stretched-link"></a>
 			 	</div>
 			</div>
 
@@ -104,7 +124,7 @@
 				<div class="card-body">
 			    	<h4 class="card-title">Biologia</h4>
 			    	<p class="card-text" >Concepção imaculada: este peixe rescreverá os livros de biologia</p>
-      				<a href="#" class="stretched-link"></a>
+      				<a href="#" data-target="#myModal" data-toggle="modal" class="stretched-link"></a>
 			 	</div>
 			</div>
 
@@ -122,7 +142,7 @@
 				 	<div class="card-body">
 					    <h4 class="card-title">Biologia</h4>
 					    <p class="card-text">Em apenas três dias, Inteligência Artificial resolve um mistério da biologia</p>
-					    <a href="#" class="stretched-link"></a>
+					    <a href="#" data-target="#myModal" data-toggle="modal" class="stretched-link"></a>
 					    <img class="card-img-bottom" src="img/inteligencia-artificial-platelmintos.png" alt="Card image">
 					</div>
 			</div>
@@ -131,7 +151,7 @@
 				 	<div class="card-body">
 					    <h4 class="card-title">Biologia</h4>
 					    <p class="card-text">As supernovas que podem ter mudado a biologia da Terra com radiação</p>
-					    <a href="#" class="stretched-link"></a>
+					    <a href="#" data-target="#myModal" data-toggle="modal" class="stretched-link"></a>
 					    <img class="card-img-bottom" src="img/supernova.png" alt="Card image">
 					</div>
 			</div>
