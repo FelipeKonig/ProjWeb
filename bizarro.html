@@ -4,8 +4,12 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="icon" href="img/icon.ico" />
+	<meta name="description" content="Site com várias notícias de revistas científicas" />
+	<meta name="keywords" content="ciência,história,biologia,fisica,historia,filosofia,biologia" />
+	<meta name="author" content="Felipe Konig,Ramon Becker" />
+	<meta name="robots" content="index,follow" />
 
-	<title>Bizarro</title>
+	<title>Filosofia</title>
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -13,77 +17,42 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 <body>
-	 <header class="topbar bg-dark">
-	      <div class="container">
-	        <div class="row">
-	          <div class="col-sm-12">
-	          
-	            	<button type="button" class="waves-effect waves-dark btn btn-lg btn-fb"><i class="fab fa-facebook-f pr-1"></i> Facebook</button>
-	            	<button type="button" class="waves-effect waves-dark btn btn-ins"><i class="fab fa-instagram pr-1"></i> Instagram</button>
-	              <button type="button" class="waves-effect waves-dark btn btn-gplus"><i class="fab fa-google-plus-g pr-1"></i> Google </button>
+	<header class="row" >
+			<div class="col-4 bg-dark text-white" style="text-align: center;" >		Av. Expedicionários</div>
+			<div class="col-4 bg-dark text-white" id="cidade" style="text-align: center;" >		Canoinhas-Santa Catarina</div>
+			<div class="col-4 bg-dark text-white" style="text-align: center;" >		(47)99949-7824</div>
 
-				  <button type="button" class="waves-effect waves-dark btn btn-tw"><i class="fab fa-twitter pr-1"></i> Twitter</button>
-	     
-	          </div>
+	</header>
+	<nav class="col-md-12 p-3 bg-dark text-white">
+		<img src="img/logo2.png" class="col-md mx-auto " style="width: 80px;" alt=" ">
+		<a id="titulo">Revista Científica</a>
 
-	        </div>
-	      </div>
-	  </header>
-   <div style="padding-bottom: 1px;"></div>
-
-	<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-		  <a class="navbar-brand" id="titulo" href="home.html">Revista Científica</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		 <div class="collapse navbar-collapse" id="collapsibleNavbar">
-		 	<ul class="navbar-nav">
-     			<li class="nav-item" style="margin-left: 5%">
-				<a class="linksNav" href="historia.html" target="_self" > História</a>
-				</li>	
-				
-				<li class="nav-item" style="margin-left: 5%">
-					<a class="linksNav" href="tecnologias.html" target="_self" > Tecnologias</a>
-				</li>
-				
-				<li class="nav-item" style="margin-left: 5%">
-				<a class="linksNav" href="filosofia.html" target="_self" > Filosofia</a>
-				</li>
-
-				<li class="nav-item" style="margin-left: 5%">
-				<a class="linksNav" href="fisica.html" target="_self" > Física</a>
-				</li>
-
-				<li class="nav-item" style="margin-left: 5%">
-				<a class="linksNav" href="biologia.html" target="_self" > Biologia</a>
-				</li>
-
-				<li class="nav-item" style="margin-left: 5%;margin-right: 5%;">
-				<a class="linksNav" href="bizarro.html" target="_self" >Bizarro</a>
-				</li>
-			</ul>
-		</div>
+		<a id="firstLinkNav" href="historia.html" target="_self" > História</a>
+		<a class="linksNav" href="tecnologias.html" target="_self" > Tecnologias</a>
+		<a class="linksNav" href="filosofia.html" target="_self" > Filosofia</a>
+		<a class="linksNav" href="fisica.html" target="_self" > Física</a>
+		<a class="linksNav" href="biologia.html" target="_self" > Biologia</a>
+		<a class="linksNav" href="bizarro.html" target="_self" >Bizarro</a>
 	</nav>
 
 	<br>
 
 
-	<h1 style="margin-left: 43%;">Bizarro</h1>
-	<p class="subTituloPagina" >Leia sobre as maiores bizarrices do universo e as coisas mais estranhas do seu dia-a-dia</p>
+	<h1 style="margin-left: 43%;">Filosofia</h1>
+	<p class="subTituloPagina" >Amor pela sabedoria, experimentado apenas pelo ser humano consciente de sua própria ignorância [Segundo autores clássicos, sentido original do termo, atribuído ao filósofo grego Pitágoras (sVI a.C.).].</p>
 
 	<div class="dropdown" style="margin-left: 23%;">
 	  <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
 	    Selecione uma notícia!
 	  </button>
 	  <div class="dropdown-menu">
-	    <a class="dropdown-item" href="bilogiaNoticia.html">Físicos divulgam instruções passo-a-passo de como criar um buraco de minhoca espacial</a>
-	    <a class="dropdown-item" href="#">Especialistas confirmam que a explosão russa do início de agosto provavelmente foi em um reator nuclear</a>
-	    <a class="dropdown-item" href="#">Esqueletos com cabeças “alienígenas” são encontrados na Croácia</a>
-	    <a class="dropdown-item" href="#">Coelho ou corvo? Ilusão de ótica confunde seriamente a internet</a>
-	    <a class="dropdown-item" href="#">Mulher encontra diamante de quase 4 quilates enquanto assiste a um vídeo de como encontrar diamantes</a>
+	    <a class="dropdown-item" href="FilosofiaNoticia.html">Como a atividade dos neurônios produz essa sensação única de estar vivo e consciente?</a>
+	    <a class="dropdown-item" href="#">“Filosofia não faz perguntas para encontrar respostas, mas sim para questionar as já estabelecidas”</a>
+	    <a class="dropdown-item" href="#">O feminismo que nasceu com Simone de Beauvoir</a>
+	    <a class="dropdown-item" href="#">“Filosofia não faz perguntas para encontrar respostas, mas sim para questionar as já estabelecidas”</a>
+	    <a class="dropdown-item" href="#">Morre Agnes Heller, a filósofa da vida cotidiana que sobreviveu ao Holocausto</a>
 	  </div>
 	</div>
 	<br>
@@ -91,86 +60,59 @@
 	<article class="row" style=" background-color: #ded9d9;">
 
 			<div class="col-md-3 card text-center" style="margin-left: 7%;margin-top: 5%;">
-				<img class="card-img-top" src="img/explosao.png" alt="Card image">
+				<img class="card-img-top" src="img/agnesHeller.png" alt="Card image">
 				<div class="card-body">
-			    	<h4 class="card-title">Bizarro</h4>
-			    	<p class="card-text" >Especialistas confirmam que a explosão russa do início de agosto provavelmente foi em um reator nuclear</p>
+			    	<h4 class="card-title">Filosofia</h4>
+			    	<p class="card-text" >Morre Agnes Heller, a filósofa da vida cotidiana que sobreviveu ao Holocausto</p>
       				<a href="#" class="stretched-link"></a>
 			 	</div>
 			</div>
 
 			<div class="col-md-3 card text-center" style="margin-left: 7%;margin-top: 5%;">
-				<img class="card-img-top" src="img/passo-a-passo.png" alt="Card image">
+				<img class="card-img-top" src="img/Consciencia.png" alt="Card image">
 				<div class="card-body">
-			    	<h4 class="card-title">Bizarro</h4>
-			    	<p class="card-text" >Físicos divulgam instruções passo-a-passo de como criar um buraco de minhoca espacial</p>
-      				<a href="bizarroNoticia.html" class="stretched-link"></a>
+			    	<h4 class="card-title">Filosofia</h4>
+			    	<p class="card-text" >Como a atividade dos neurônios produz essa sensação única de estar vivo e consciente?</p>
+      				<a href="#FilosofiaNoticia.html" class="stretched-link"></a>
 			 	</div>
 			</div>
 
 			<div class="col-md-3 card text-center" style="margin-left: 7%;margin-top: 5%;">
-				   <img class="card-img-top" src="img/esqueletos.png" alt="Card image">
+				   <img class="card-img-top" src="img/simoneDeBeau.png" alt="Card image">
 				 	<div class="card-body">
-					    <h4 class="card-title">Bizarro</h4>
-					    <p class="card-text">Esqueletos com cabeças “alienígenas” são encontrados na Croácia</p>
-					    <a href="" class="stretched-link"></a>
+					    <h4 class="card-title">Filosofia</h4>
+					    <p class="card-text">O feminismo que nasceu com Simone de Beauvoir</p>
+					    <a href="biologiaNoticia.html" class="stretched-link"></a>
 					</div>
 			</div>
 
 
 			<div class="col-md-3 card text-center" style="margin-left: 24%;margin-top: 5%;margin-bottom: 2%">
 				 	<div class="card-body">
-					    <h4 class="card-title">Bizarro</h4>
-					    <p class="card-text">Coelho ou corvo? Ilusão de ótica confunde seriamente a internet</p>
+					    <h4 class="card-title">Filosofia</h4>
+					    <p class="card-text">Como mudar o sistema educativo para transformar o mundo</p>
 					    <a href="#" class="stretched-link"></a>
-					    <img class="card-img-bottom" src="img/coelho.png" alt="Card image">
+					    <img class="card-img-bottom" src="img/sistemaEducativo.png" alt="Card image">
 					</div>
 			</div>
 
 			<div class="col-md-3 card text-center" style="margin-left: 7%; margin-top: 5%;margin-bottom: 2%">
 				 	<div class="card-body">
-					    <h4 class="card-title">Bizarro</h4>
-					    <p class="card-text">Mulher encontra diamante de quase 4 quilates enquanto assiste a um vídeo de como encontrar diamantes</p>
+					    <h4 class="card-title">Filosofia</h4>
+					    <p class="card-text">As supernovas que podem ter mudado a biologia da Terra com radiação</p>
 					    <a href="#" class="stretched-link"></a>
-					    <img class="card-img-bottom" src="img/diamante.png" alt="Card image">
+					    <img class="card-img-bottom" src="img/darioSztajn.png" alt="Card image">
 					</div>
 			</div>
 		</article>
 		
-	   <footer class="section footer-classic context-dark bg-image" style="background: #343a40;">
-        <div class="container">
-          <div class="row row-30">
-            <div class="col-md-4 col-xl-5">
-              <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="images/agency/logo-inverse-140x37.png" alt="" width="140" height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
-                <p>Somos divulgadores de conteúdos de ciência, dedicados ao melhor resultado em web para pesquisas acadêmicas.</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <h5>Contatos</h5>
-              <dl class="contact-list">
-                <dt>Endereço:</dt>
-                <dd>666 Avenida Expedicionários, Campo da Água Verde, Canoinhas, SC</dd>
-              </dl>
-              <dl class="contact-list">
-                <dt>E-mail:</dt>
-                <dd><a href="mailto:#">suporterevista@gmail.com</a></dd>
-              </dl>
-            </div>
-            <div class="col-md-4 col-xl-3">
-              <h5>Links</h5>
-              <ul class="nav-list">
-                <li><a href="#">Sobre nós</a></li>
-                <li><a href="#">Contatos</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row no-gutters social-container">
-          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
-          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
-          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
-          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
-        </div>
-      </footer>
+		<footer class="row" style="margin-top: 50px">
+			<div class="col-4 bg-dark text-white" style="text-align: center;" >	nomeRevista</div>
+			<div class="col-4 bg-dark text-white" style="text-align: center;" >	Facebook: nomeRevista</div>
+			<div class="col-4 bg-dark text-white" style="text-align: center;" >	Twitter: nomeRevista</div>
+		</footer>
+
+
+
 </body>
 </html>
